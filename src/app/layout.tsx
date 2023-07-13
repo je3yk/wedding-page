@@ -1,8 +1,18 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Great_Vibes, Cormorant_Garamond } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const greatVibes = Great_Vibes({
+  weight: ["400"],
+  variable: "--font-great-vibes",
+  subsets: ["latin"],
+});
+
+const cormorant = Cormorant_Garamond({
+  weight: ["400"],
+  variable: "--font-cormorant",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${cormorant.variable} ${greatVibes.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
