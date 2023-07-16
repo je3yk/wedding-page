@@ -6,7 +6,7 @@ export default function Waiting() {
     <Section id="waiting" className="bg-blue min-h-screen">
       <Typography
         variant="h1"
-        className="text-natural text-center line-clamp-1 py-5"
+        className="text-natural text-center line-clamp-1 py-10"
       >
         W oczekiwaniu na wesele
       </Typography>

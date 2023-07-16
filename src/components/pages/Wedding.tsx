@@ -21,7 +21,7 @@ export default function Wedding() {
       className="min-h-screen"
     >
       <div className="pb-5">
-        <Typography variant="h1" className="text-blue text-center pt-5">
+        <Typography variant="h1" className="text-blue text-center pt-10">
           Ślub
         </Typography>
         <a href="https://goo.gl/maps/tYFyNmPcRXutuXRb6">
@@ -35,7 +35,7 @@ export default function Wedding() {
         </a>
       </div>
       <div className="flex flex-col md:flex-row h-full w-full justify-center items-center pt-5">
-        <div className="md:w-[60%] px-10 justify-center items-center">
+        <div className="md:w-[60%] flex flex-col px-10 h-full justify-center items-center">
           {messages.map((value, id) => {
             return (
               <Typography

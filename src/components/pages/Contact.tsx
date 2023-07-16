@@ -13,7 +13,7 @@ export default function Contact() {
       className="min-h-[70vh]"
       displayFlowers={["lb", "rb"]}
     >
-      <Typography variant="h1" className="text-blue text-center pt-5">
+      <Typography variant="h1" className="text-blue text-center pt-10">
         Kontakt
       </Typography>
       <div className="flex flex-col md:flex-row h-full w-full justify-center items-center pt-5 gap-5">

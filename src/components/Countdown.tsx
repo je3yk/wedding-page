@@ -35,7 +35,7 @@ export const Countdown = ({ expiryTimestamp }: { expiryTimestamp: Date }) => {
     <div className="flex flex-col items-center justify-center">
       <div className="flex flex-row items-center justify-center gap-4">
         <div className="flex flex-col items-center justify-center">
-          <Typography variant="h2Mobile" className=" text-natural text-center">
+          <Typography variant="h3Label" className=" text-natural text-center">
             {days}
           </Typography>
           <Typography variant="h6" className="text-natural">
@@ -44,7 +44,7 @@ export const Countdown = ({ expiryTimestamp }: { expiryTimestamp: Date }) => {
         </div>
         <div className="flex flex-col items-center justify-center">
           <Typography
-            variant="h2Mobile"
+            variant="h3Label"
             className="font-bold text-natural text-center"
           >
             {hours}
@@ -54,7 +54,7 @@ export const Countdown = ({ expiryTimestamp }: { expiryTimestamp: Date }) => {
           </Typography>
         </div>
         <div className="flex flex-col items-center justify-center text-center">
-          <Typography variant="h2Mobile" className="text-natural">
+          <Typography variant="h3Label" className="text-natural">
             {minutes}
           </Typography>
           <Typography variant="h6" className=" text-natural">
@@ -62,7 +62,7 @@ export const Countdown = ({ expiryTimestamp }: { expiryTimestamp: Date }) => {
           </Typography>
         </div>
         <div className="flex flex-col items-center justify-center text-center">
-          <Typography variant="h2Mobile" className=" text-natural">
+          <Typography variant="h3Label" className=" text-natural">
             {seconds}
           </Typography>
           <Typography variant="h6" className=" text-natural">

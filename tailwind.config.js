@@ -18,6 +18,8 @@ module.exports = {
         "4xl": "1920px",
       },
       fontSize: {
+        "12xl": ["8rem", { lineHeight: 1.2 }], // 128px
+        "10xl": ["4rem", { lineHeight: 1.2 }], // 64px
         "8xl": ["3.25rem", { lineHeight: 1.2 }], // 60px
         "7xl": ["3rem", { lineHeight: 1.2 }], // 48px
         "6xl": ["2.5rem", { lineHeight: 1.2 }], // 40px
