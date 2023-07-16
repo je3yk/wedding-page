@@ -3,12 +3,32 @@ import { VariantProps, cva } from "class-variance-authority";
 const styleClasses = cva("", {
   variants: {
     variant: {
-      h1: ["text-10xl font-vibes"],
-      h2: ["text-8xl font-vibes"],
-      h3: ["text-4xl font-primary"],
-      body: ["text-2xl font-primary"],
-      bodyRegular: ["text-xl font-primary"],
-      bodySmall: ["text-lg font-primary"],
+      h1: ["text-6xl", "sm:text-8xl", "md:text-10xl", "font-vibes"],
+      h2: ["text-5xl", "md:text-6xl", "font-vibes"],
+      h2Mobile: ["text-8xl", "md:text-10xl", "font-vibes"],
+      h2Normal: ["text-5xl", "md:text-6xl", "font-primary"],
+      h3: ["text-4xl", "md:text-6xl", "font-vibes"],
+      h3Label: ["text-4xl", "md:text-6xl", "font-dancing"],
+      h4: ["text-3xl", "md:text-4xl", "print:text-xl", "font-vibes"],
+      h5: [
+        "text-2xl",
+        "md:text-3xl",
+        "font-vibes",
+        "leading-normal",
+        "print:text-lg",
+      ],
+      h6: ["text-2xl", "md:text-3xl", "font-primary"],
+      bodyLarge: ["text-xl", "md:text-2xl", "font-primary"],
+      bodyLargeStrong: ["text-xl", "md:text-2xl", "font-primary"],
+      bodySmall: ["text-lg", "print:text-sm", "font-primary"],
+      bodySmallStrong: [
+        "text-lg",
+        "font-bold",
+        "print:text-md",
+        "font-primary",
+      ],
+      labelLarge: ["text-base", "block", "font-primary"],
+      labelSmall: ["text-sm", "block", "font-primary"],
     },
   },
 });
@@ -21,18 +41,39 @@ type TypographyProps = {
   variant: TypographyVariant;
 };
 
-export default function Typography(props: TypographyProps) {
-  const typographyClass = `${styleClasses({ variant: props.variant })} ${
-    props.className
-  }`;
-  switch (props.variant) {
+export default function Typography({
+  variant,
+  children,
+  className,
+}: TypographyProps) {
+  const typographyClass = `${styleClasses({ variant: variant })} ${className}`;
+  switch (variant) {
     case "h1":
     case "h2":
+    case "h2Normal":
+    case "h2Mobile":
+      return <h1 className={typographyClass}>{children}</h1>;
     case "h3":
-      return <h1 className={typographyClass}>{props.children}</h1>;
-    case "body":
+    case "h3Label":
+      return <h3 className={typographyClass}>{children}</h3>;
+    case "h4":
+      return <h4 className={typographyClass}>{children}</h4>;
+    case "h5":
+      return <h5 className={typographyClass}>{children}</h5>;
+    case "h6":
+      return <h6 className={typographyClass}>{children}</h6>;
+
+    case "bodyLarge":
+    case "bodyLargeStrong":
     case "bodySmall":
-    case "bodyRegular":
-      return <p className={typographyClass}>{props.children}</p>;
+    case "bodySmallStrong":
+      return <p className={typographyClass}>{children}</p>;
+
+    case "labelLarge":
+    case "labelSmall":
+      return <span className={typographyClass}>{children}</span>;
+
+    default:
+      return null;
   }
 }

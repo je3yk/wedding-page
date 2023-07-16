@@ -7,16 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        "hands-bg": "url('/images/hands_cropped.png')",
+      },
+      maxWidth: {
+        "8xl": "90rem", // 1440px
+        "9xl": "120rem", // 1920px
+      },
       screens: {
         "4xl": "1920px",
       },
       fontSize: {
-        "12xl": ["6rem", { lineHeight: 2 }], // 96px
-        "10xl": ["4.5rem", { lineHeight: 2 }], // 72px
-        "8xl": ["3rem", { lineHeight: 1.5 }], // 48px
-        "4xl": ["2.25rem", { lineHeight: 1.5 }], // 36px
-        "3xl": ["1.875rem", { lineHeight: 1.5 }], // 30px
-        "2xl": ["1.5rem", { lineHeight: 1.5 }], // 24px
+        "8xl": ["3.25rem", { lineHeight: 1.2 }], // 60px
+        "7xl": ["3rem", { lineHeight: 1.2 }], // 48px
+        "6xl": ["2.5rem", { lineHeight: 1.2 }], // 40px
+        "6xl-mobile": ["2.3rem", { lineHeight: 1.2 }], // 40px
+        "5xl": ["2.25rem", { lineHeight: 1.2 }], // 36px
+        "4xl": ["2rem", { lineHeight: 1.2 }], // 32px
+        "3xl": ["1.5rem", { lineHeight: 1.2 }], // 24px
+        "2xl": ["1.25rem", { lineHeight: 1.5 }], // 20px
         xl: ["1.125rem", { lineHeight: 1.5 }], // 18px
         lg: ["1rem", { lineHeight: 1.5 }], // 16px
         base: ["0.75rem", { lineHeight: 1.5 }], // 12px
@@ -32,6 +41,7 @@ module.exports = {
       },
       fontFamily: {
         vibes: ["var(--font-great-vibes)"],
+        dancing: ["var(--font-dancing-script)"],
         primary: ["var(--font-cormorant)"],
       },
     },
