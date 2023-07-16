@@ -34,28 +34,32 @@ export default function Reception() {
       displayFlowers={["lb", "rt"]}
       className="min-h-screen"
     >
-      <Typography variant="h1" className="text-blue text-center pt-10">
-        Wesele
-      </Typography>
-      <a href="https://goo.gl/maps/j1WwrQs3nAdgMFdj9">
-        <Typography
-          variant="bodyLarge"
-          className="text-gray-400 text-center underline flex justify-center items-center gap-1"
-        >
-          <FaLocationDot />
-          Na Grobli 28, 50-421 Wrocław
+      <div className="flex flex-col md:h-[20vh]">
+        <Typography variant="h1" className="text-blue text-center pt-10">
+          Wesele
         </Typography>
-      </a>
-      <div className="flex flex-col-reverse md:flex-row h-full justify-around pt-5">
-        <div className="md:w-[35%] flex justify-center self-center p-5">
+        <a href="https://goo.gl/maps/j1WwrQs3nAdgMFdj9">
+          <Typography
+            variant="bodyLarge"
+            className="text-gray-400 text-center underline flex justify-center items-center gap-1"
+          >
+            <FaLocationDot />
+            Na Grobli 28, 50-421 Wrocław
+          </Typography>
+        </a>
+      </div>
+      <div className="md:h-[80vh] flex flex-col-reverse md:flex-row justify-around pt-5">
+        <div className="md:w-[40%] h-full flex md:flex-col justify-start md:justify-center items-center p-5">
           <Image
             src={HotelPhooto}
-            className="rounded-full"
+            className="rounded-full resize"
             alt="Zdjęcie hotelu"
+            width={500}
+            height={500}
             objectFit="cover"
           />
         </div>
-        <div className="md:w-[60%] flex flex-col md:pt-20 p-10 justify-between items-center">
+        <div className="h-full md:w-[60%] flex flex-col md:pt-20 p-10 justify-between items-center">
           <DescriptionSwitcher
             contents={[
               {
@@ -66,7 +70,7 @@ export default function Reception() {
                     <Typography
                       key={`message-${id}`}
                       variant="h6"
-                      className="text-neutral-700 text-center py-2"
+                      className="text-neutral-700 text-center py-2 md:py-4"
                     >
                       {value}
                     </Typography>
@@ -80,9 +84,12 @@ export default function Reception() {
                   return (
                     <div
                       key={`timetable-${id}`}
-                      className="flex flex-row justify-start items-center px-5 py-1 md:py-4 gap-5"
+                      className="w-full flex flex-row justify-start items-center gap-10 md:py-4"
                     >
-                      <Typography variant="h6" className="text-blue">
+                      <Typography
+                        variant="h6"
+                        className="text-blue w-5 md:w-20"
+                      >
                         {value.time}
                       </Typography>
                       <Typography

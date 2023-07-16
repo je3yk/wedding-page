@@ -24,7 +24,7 @@ export default function DescriptionSwitcher(props: DescriptionSwitcherProps) {
 
   return (
     <div>
-      <div className="flex justify-center gap-5">
+      <div className="flex justify-center gap-5 md:gap-10">
         {props.contents.map((content, id) => {
           return (
             <div
@@ -45,7 +45,7 @@ export default function DescriptionSwitcher(props: DescriptionSwitcherProps) {
           );
         })}
       </div>
-      <div className="mt-4">
+      <div className="my-5 h-full flex flex-col md:justify-center">
         {currentContent?.children && currentContent.children.length > 0
           ? currentContent.children
           : null}

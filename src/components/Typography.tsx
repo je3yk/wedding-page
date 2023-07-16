@@ -15,7 +15,7 @@ const styleClasses = cva("", {
       h2Normal: ["text-5xl", "md:text-6xl", "xl:text-8xl", "font-primary"],
       h3: ["text-4xl", "md:text-6xl", "xl:text-8xl", "font-vibes"],
       h3Label: ["text-4xl", "md:text-6xl", "xl:text-8xl", "font-dancing"],
-      h4: ["text-3xl", "md:text-4xl", "xl:text-12xl", "font-vibes"],
+      h4: ["text-3xl", "md:text-4xl", "xl:text-10xl", "font-dancing"],
       h5: [
         "text-2xl",
         "md:text-3xl",
