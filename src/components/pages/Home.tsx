@@ -28,13 +28,13 @@ export default function Home() {
           </Typography>
         </a>
       </div>
-      <div className="h-3/4 flex flex-col justify-center items-center">
+      <div className="md:h-1/2 xl:h-3/4 flex flex-col justify-center items-center">
         <Image
           src={Logo}
           alt="Wesele Aleksandra & Jędrzej"
           className="resize"
-          width={800}
-          height={800}
+          width={500}
+          height={500}
         />
       </div>
 

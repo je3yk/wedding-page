@@ -70,7 +70,7 @@ export default function Reception() {
                     <Typography
                       key={`message-${id}`}
                       variant="h6"
-                      className="text-neutral-700 text-center py-2 md:py-4"
+                      className="xl:max-w-[25vw] text-neutral-700 text-center py-2 md:py-4"
                     >
                       {value}
                     </Typography>
