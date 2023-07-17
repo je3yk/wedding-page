@@ -35,7 +35,7 @@ export default function Wedding() {
         </a>
       </div>
       <div className="flex flex-col md:flex-row h-full w-full justify-center items-center pt-5">
-        <div className="md:w-[60%] flex flex-col px-10 h-full justify-center items-center">
+        <div className="md:w-[60%] xl:w-[40%] flex flex-col px-10 h-full justify-center items-center">
           {messages.map((value, id) => {
             return (
               <Typography

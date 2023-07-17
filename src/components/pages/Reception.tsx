@@ -49,7 +49,7 @@ export default function Reception() {
         </a>
       </div>
       <div className="md:h-[80vh] flex flex-col-reverse md:flex-row justify-around pt-5">
-        <div className="md:w-[40%] h-full flex md:flex-col justify-start md:justify-center items-center p-5">
+        <div className="md:w-[40%] h-full md:h-3/4 flex md:flex-col justify-start md:justify-center items-center p-5">
           <Image
             src={HotelPhooto}
             className="rounded-full resize"
@@ -59,7 +59,7 @@ export default function Reception() {
             objectFit="cover"
           />
         </div>
-        <div className="h-full md:w-[60%] flex flex-col md:pt-20 p-10 justify-between items-center">
+        <div className="h-full md:w-[50%] xl:w-[60%] flex flex-col pt-5 px-10 justify-between items-center">
           <DescriptionSwitcher
             contents={[
               {
@@ -70,7 +70,7 @@ export default function Reception() {
                     <Typography
                       key={`message-${id}`}
                       variant="h6"
-                      className="xl:max-w-[25vw] text-neutral-700 text-center py-2 md:py-4"
+                      className="xl:max-w-[30vw] text-neutral-700 text-center py-2 2xl:py-4"
                     >
                       {value}
                     </Typography>
@@ -84,17 +84,14 @@ export default function Reception() {
                   return (
                     <div
                       key={`timetable-${id}`}
-                      className="w-full flex flex-row justify-start items-center gap-10 md:py-4"
+                      className="w-full grid grid-cols-6 py-1"
                     >
-                      <Typography
-                        variant="h6"
-                        className="text-blue w-5 md:w-20"
-                      >
+                      <Typography variant="h6" className="text-blue col-span-1">
                         {value.time}
                       </Typography>
                       <Typography
                         variant="h6"
-                        className="text-left text-neutral-700"
+                        className="text-left text-neutral-700 col-span-5"
                       >
                         {value.message}
                       </Typography>

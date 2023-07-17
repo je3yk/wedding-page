@@ -45,7 +45,7 @@ export default function DescriptionSwitcher(props: DescriptionSwitcherProps) {
           );
         })}
       </div>
-      <div className="my-5 h-full flex flex-col md:justify-center">
+      <div className="my-5 md:my-2 h-full flex flex-col md:justify-center">
         {currentContent?.children && currentContent.children.length > 0
           ? currentContent.children
           : null}

@@ -11,7 +11,7 @@ export default function Home() {
       id="home"
       className="h-screen flex flex-col justify-between items-center"
     >
-      <div className="h-[10%] hidden md:flex gap-10 justify-around mt-1 pt-5">
+      <div className="h-[10%] hidden md:flex gap-20 justify-around mt-1 pt-5">
         <a href="#wedding" className="hover:opacity-[75%]">
           <Typography variant="h3Label" className="text-blue">
             Ślub
@@ -27,8 +27,13 @@ export default function Home() {
             Kontakt
           </Typography>
         </a>
+        {/* <a href="/visitors" className="hover:opacity-75">
+          <Typography variant="h3Label" className="text-blue">
+            Informacje dla przyjezdnych
+          </Typography>
+        </a> */}
       </div>
-      <div className="md:h-1/2 xl:h-3/4 flex flex-col justify-center items-center">
+      <div className="h-full md:h-1/2 xl:h-3/4 flex flex-col justify-center items-center">
         <Image
           src={Logo}
           alt="Wesele Aleksandra & Jędrzej"
