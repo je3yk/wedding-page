@@ -23,8 +23,8 @@ export default function DescriptionSwitcher(props: DescriptionSwitcherProps) {
   }, [currentLabel, props.contents]);
 
   return (
-    <div>
-      <div className="flex justify-center gap-5 md:gap-10">
+    <div className={props.className}>
+      <div className="flex justify-start gap-4 md:justify-center md:gap-10">
         {props.contents.map((content, id) => {
           return (
             <div
@@ -45,7 +45,7 @@ export default function DescriptionSwitcher(props: DescriptionSwitcherProps) {
           );
         })}
       </div>
-      <div className="my-5 md:my-2 h-full flex flex-col md:justify-center">
+      <div className="px-5 my-10 h-full flex flex-col md:justify-start">
         {currentContent?.children && currentContent.children.length > 0
           ? currentContent.children
           : null}

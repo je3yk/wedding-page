@@ -4,6 +4,7 @@ import Section from "../Section";
 import Typography from "../Typography";
 
 import Logo from "@/images/logo.png";
+import NavBar from "../NavBar";
 
 export default function Home() {
   return (
@@ -11,28 +12,7 @@ export default function Home() {
       id="home"
       className="h-screen flex flex-col justify-between items-center"
     >
-      <div className="h-[10%] hidden md:flex gap-20 justify-around mt-1 pt-5">
-        <a href="#wedding" className="hover:opacity-[75%]">
-          <Typography variant="h3Label" className="text-blue">
-            Ślub
-          </Typography>
-        </a>
-        <a href="#reception" className="hover:opacity-[75%]">
-          <Typography variant="h3Label" className="text-blue">
-            Wesele
-          </Typography>
-        </a>
-        <a href="#contact" className="hover:opacity-[75%]">
-          <Typography variant="h3Label" className="text-blue">
-            Kontakt
-          </Typography>
-        </a>
-        {/* <a href="/visitors" className="hover:opacity-75">
-          <Typography variant="h3Label" className="text-blue">
-            Informacje dla przyjezdnych
-          </Typography>
-        </a> */}
-      </div>
+      <NavBar />
       <div className="h-full md:h-1/2 xl:h-3/4 flex flex-col justify-center items-center">
         <Image
           src={Logo}

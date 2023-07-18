@@ -23,6 +23,7 @@ export default function Reception() {
     { time: "17:30", message: "Pierwszy taniec" },
     { time: "18:00", message: "Tort" },
     { time: "22:00", message: "Pierwsza kolacja" },
+    { time: "22:30", message: "Iskierki" },
     { time: "00:00", message: "Oczepiny" },
     { time: "00:30", message: "Druga kolacja" },
     { time: "03:00", message: "Koniec imprezy" },
@@ -59,51 +60,49 @@ export default function Reception() {
             objectFit="cover"
           />
         </div>
-        <div className="h-full md:w-[50%] xl:w-[60%] flex flex-col pt-5 px-10 justify-between items-center">
-          <DescriptionSwitcher
-            contents={[
-              {
-                key: "organization",
-                label: "Sprawy organizacyjne",
-                children: messages.map((value, id) => {
-                  return (
-                    <Typography
-                      key={`message-${id}`}
-                      variant="h6"
-                      className="xl:max-w-[30vw] text-neutral-700 text-center py-2 2xl:py-4"
-                    >
-                      {value}
+        <DescriptionSwitcher
+          className="h-full md:w-[50%] xl:w-[60%] flex flex-col pt-5 px-5 md:px-10 justify-start items-center"
+          contents={[
+            {
+              key: "organization",
+              label: "Informacje organizacyjne",
+              children: messages.map((value, id) => {
+                return (
+                  <Typography
+                    key={`message-${id}`}
+                    variant="h6"
+                    className="xl:max-w-[30vw] text-neutral-700 text-center py-2 2xl:py-4"
+                  >
+                    {value}
+                  </Typography>
+                );
+              }),
+            },
+            {
+              key: "timetable",
+              label: "Plan wesela",
+              children: timetable.map((value, id) => {
+                return (
+                  <div
+                    key={`timetable-${id}`}
+                    className="w-full grid grid-cols-6 py-1"
+                  >
+                    <Typography variant="h6" className="text-blue col-span-1">
+                      {value.time}
                     </Typography>
-                  );
-                }),
-              },
-              {
-                key: "timetable",
-                label: "Plan wesela",
-                children: timetable.map((value, id) => {
-                  return (
-                    <div
-                      key={`timetable-${id}`}
-                      className="w-full grid grid-cols-6 py-1"
+                    <Typography
+                      variant="h6"
+                      className="text-left text-neutral-700 col-span-5"
                     >
-                      <Typography variant="h6" className="text-blue col-span-1">
-                        {value.time}
-                      </Typography>
-                      <Typography
-                        variant="h6"
-                        className="text-left text-neutral-700 col-span-5"
-                      >
-                        {value.message}
-                      </Typography>
-                    </div>
-                  );
-                }),
-              },
-            ]}
-            defaultLabel={"organization"}
-          />
-          {}
-        </div>
+                      {value.message}
+                    </Typography>
+                  </div>
+                );
+              }),
+            },
+          ]}
+          defaultLabel={"organization"}
+        />
       </div>
     </Section>
   );
