@@ -10,13 +10,16 @@ export default function Contact() {
   return (
     <Section
       id="contact"
-      className="min-h-screen md:min-h-[70vh]"
+      className="h-screen grid grid-flow-row grid-rows-4 md:min-h-[70vh]"
       displayFlowers={["lb", "rb"]}
     >
-      <Typography variant="h1" className="text-blue text-center pt-10">
+      <Typography
+        variant="h1"
+        className="text-blue text-center pt-10 row-span-1"
+      >
         Kontakt
       </Typography>
-      <div className="flex flex-col md:flex-row h-full w-full justify-center items-center py-5 gap-5">
+      <div className="flex flex-col md:flex-row w-full justify-center items-center gap-5 row-span-2">
         <div className="md:w-1/3 justify-center items-center">
           <Typography
             variant="h6"

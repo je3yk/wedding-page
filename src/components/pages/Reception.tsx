@@ -61,7 +61,7 @@ export default function Reception() {
           />
         </div>
         <DescriptionSwitcher
-          className="h-full xl:w-[50%] 2xl:w-[60%] flex flex-col pt-5 px-5 sm:px-10 justify-start items-center"
+          className="h-full xl:w-[50%] 2xl:w-[60%] flex flex-col pt-5 md:px-5 sm:px-10 justify-start items-center"
           contents={[
             {
               key: "organization",

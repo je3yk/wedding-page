@@ -24,7 +24,7 @@ export default function DescriptionSwitcher(props: DescriptionSwitcherProps) {
 
   return (
     <div className={props.className}>
-      <div className="flex justify-start gap-4 md:justify-center md:gap-10">
+      <div className="flex justify-center items-center gap-2 md:gap-10">
         {props.contents.map((content, id) => {
           return (
             <div
