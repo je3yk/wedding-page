@@ -9,8 +9,8 @@ import DescriptionSwitcher from "../DescriptionSwitcher";
 
 export default function Reception() {
   const messages = [
-    "Planowany przyjazd do hotelu to 15:30",
-    "Samochody można parkować na parkingu wzdłuż jezdni na przeciwko wejścia do hotelu",
+    "Planowany przyjazd do hotelu to 15:30.",
+    "Samochody można parkować na parkingu hotelowym,\n oraz wzdłuż jezdni na przeciwko wejścia do hotelu.\nParking wzdłuż jezdni jest darmowy przez cały weekend.",
     "Po przyjeździe prosimy o kierowanie się do sali.\nTam wraz z dj'em czekajcie na Parę Młodą, która pojawi się chwilkę po Was\nrazem z rodzicami i świadkami",
     "Po złożeniu życzeń, wszyscy będą mieli chwilę na znalezienie swojego stolika",
     "Dalsze informacje będą Wam już przekazywane przez naszego wodzireja",
@@ -35,7 +35,7 @@ export default function Reception() {
       displayFlowers={["lb", "rt"]}
       className="min-h-screen"
     >
-      <div className="flex flex-col md:h-[20vh]">
+      <div className="flex flex-col xl:h-[20vh]">
         <Typography variant="h1" className="text-blue text-center pt-10">
           Wesele
         </Typography>
@@ -49,8 +49,8 @@ export default function Reception() {
           </Typography>
         </a>
       </div>
-      <div className="md:h-[80vh] flex flex-col-reverse md:flex-row justify-around pt-5">
-        <div className="md:w-[40%] h-full md:h-3/4 flex md:flex-col justify-start md:justify-center items-center p-5">
+      <div className="xl:h-[80vh] flex flex-col-reverse xl:flex-row justify-around items-center pt-5 relative z-10">
+        <div className="md:w-[40%] h-full md:h-3/4 flex xl:flex-col justify-start md:justify-center items-center p-5">
           <Image
             src={HotelPhooto}
             className="rounded-full resize"
@@ -61,7 +61,7 @@ export default function Reception() {
           />
         </div>
         <DescriptionSwitcher
-          className="h-full md:w-[50%] xl:w-[60%] flex flex-col pt-5 px-5 md:px-10 justify-start items-center"
+          className="h-full xl:w-[50%] 2xl:w-[60%] flex flex-col pt-5 px-5 sm:px-10 justify-start items-center"
           contents={[
             {
               key: "organization",

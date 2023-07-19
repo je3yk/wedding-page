@@ -34,7 +34,7 @@ const Flowers = {
 
 export default function FlowersFrame(props: FrameProps) {
   return (
-    <div className={`hidden md:flex`}>
+    <div className={`hidden md:block -z-10`}>
       {props.positions?.map((position) => {
         return (
           <Image
