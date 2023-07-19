@@ -43,10 +43,7 @@ export const Countdown = ({ expiryTimestamp }: { expiryTimestamp: Date }) => {
           </Typography>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <Typography
-            variant="h3Label"
-            className="font-bold text-natural text-center"
-          >
+          <Typography variant="h3Label" className="text-natural text-center">
             {hours}
           </Typography>
           <Typography variant="h6" className="text-natural">

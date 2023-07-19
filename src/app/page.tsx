@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import Section from "../components/Section";
 import Typography from "../components/Typography";
 import Contact from "../components/pages/Contact";
