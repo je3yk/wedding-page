@@ -11,22 +11,29 @@ export default function Reception() {
   const messages = [
     "Planowany przyjazd do hotelu to 15:30.",
     "Samochody można parkować na parkingu hotelowym,\n oraz wzdłuż jezdni na przeciwko wejścia do hotelu.\nParking wzdłuż jezdni jest darmowy przez cały weekend.",
-    "Po przyjeździe prosimy o kierowanie się do sali.\nTam wraz z dj'em czekajcie na Parę Młodą, która pojawi się chwilkę po Was\nrazem z rodzicami i świadkami",
-    "Po złożeniu życzeń, wszyscy będą mieli chwilę na znalezienie swojego stolika",
-    "Dalsze informacje będą Wam już przekazywane przez naszego wodzireja",
+    "Po przyjeździe prosimy o kierowanie się do sali.\nTam wraz z dj'em czekajcie na Parę Młodą, która pojawi się chwilkę po Was\nrazem z rodzicami i świadkami.",
+    "Po złożeniu życzeń, wszyscy będą mieli chwilę na znalezienie swojego stolika.",
+    "Dalsze informacje będą Wam już przekazywane przez naszego wodzireja.",
   ];
 
   const timetable = [
-    { time: "15:30", message: "Przyjazd do hotelu, toasty, życzenia" },
-    { time: "16:00", message: "Znalezienie stolika" },
-    { time: "16:15", message: "Obiad - nie ma co szaleć na pusty żołądek" },
+    {
+      time: "15:30",
+      message:
+        "Przyjazd do hotelu, toasty, życzenia\nrozlokowanie się przy stolikach",
+    },
+    { time: "16:15", message: "Obiad" },
     { time: "17:30", message: "Pierwszy taniec" },
     { time: "18:00", message: "Tort" },
     { time: "22:00", message: "Pierwsza kolacja" },
     { time: "22:30", message: "Iskierki" },
     { time: "00:00", message: "Oczepiny" },
     { time: "00:30", message: "Druga kolacja" },
-    { time: "03:00", message: "Koniec imprezy" },
+    {
+      time: "?",
+      message:
+        "Bawimy się do ostatniego tańcującego weselnika maksymalnie do 4:00",
+    },
   ];
 
   return (
@@ -49,7 +56,7 @@ export default function Reception() {
           </Typography>
         </a>
       </div>
-      <div className="xl:h-[80vh] flex flex-col-reverse xl:flex-row justify-around items-center pt-5 relative z-10">
+      <div className="md:h-[80vh] flex flex-col-reverse md:flex-row justify-around items-center pt-5 relative z-10">
         <div className="md:w-[40%] h-full md:h-3/4 flex xl:flex-col justify-start md:justify-center items-center p-5">
           <Image
             src={HotelPhooto}
@@ -61,8 +68,33 @@ export default function Reception() {
           />
         </div>
         <DescriptionSwitcher
-          className="h-full xl:w-[50%] 2xl:w-[60%] flex flex-col pt-5 md:px-5 sm:px-10 justify-start items-center"
+          className="h-full md:w-[50%] 2xl:w-[60%] flex flex-col pt-5 md:px-5 sm:px-10 justify-start items-center"
           contents={[
+            {
+              key: "timetable",
+              label: "Plan wesela",
+              children: timetable.map((value, id) => {
+                return (
+                  <div
+                    key={`timetable-${id}`}
+                    className="w-full grid grid-cols-6 py-1 gap-5"
+                  >
+                    <Typography
+                      variant="h6"
+                      className="text-blue text-right col-span-1"
+                    >
+                      {value.time}
+                    </Typography>
+                    <Typography
+                      variant="h6"
+                      className="text-left text-neutral-700 col-span-5 pre-line"
+                    >
+                      {value.message}
+                    </Typography>
+                  </div>
+                );
+              }),
+            },
             {
               key: "organization",
               label: "Informacje organizacyjne",
@@ -78,30 +110,8 @@ export default function Reception() {
                 );
               }),
             },
-            {
-              key: "timetable",
-              label: "Plan wesela",
-              children: timetable.map((value, id) => {
-                return (
-                  <div
-                    key={`timetable-${id}`}
-                    className="w-full grid grid-cols-6 py-1"
-                  >
-                    <Typography variant="h6" className="text-blue col-span-1">
-                      {value.time}
-                    </Typography>
-                    <Typography
-                      variant="h6"
-                      className="text-left text-neutral-700 col-span-5"
-                    >
-                      {value.message}
-                    </Typography>
-                  </div>
-                );
-              }),
-            },
           ]}
-          defaultLabel={"organization"}
+          defaultLabel={"timetable"}
         />
       </div>
     </Section>

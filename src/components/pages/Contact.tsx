@@ -10,33 +10,30 @@ export default function Contact() {
   return (
     <Section
       id="contact"
-      className="h-screen grid grid-flow-row grid-rows-4 md:min-h-[70vh]"
+      className="min-h-screen flex flex-col justify-evenly md:min-h-3/4"
       displayFlowers={["lb", "rb"]}
     >
-      <Typography
-        variant="h1"
-        className="text-blue text-center pt-10 row-span-1"
-      >
+      <Typography variant="h1" className="text-blue text-center py-5 lg:py-10">
         Kontakt
       </Typography>
-      <div className="flex flex-col md:flex-row w-full justify-center items-center gap-5 row-span-2">
-        <div className="md:w-1/3 justify-center items-center">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-5 my-auto">
+        <div className="lg:w-1/3">
           <Typography
             variant="h6"
-            className="text-center md:text-right text-neutral-700"
+            className="text-center lg:text-right text-neutral-700"
           >
             Panna Młoda
           </Typography>
           <Typography
             variant="h3Label"
-            className="text-center md:text-right text-blue py-2"
+            className="text-center lg:text-right text-blue py-2"
           >
             Aleksandra
           </Typography>
           <a href="tel:+48794700569">
             <Typography
               variant="bodyLarge"
-              className="text-center md:text-right text-neutral-700"
+              className="text-center lg:text-right text-neutral-700"
             >
               <FaPhoneAlt className="inline-block mr-2 text-blue text-xl" />
               +48 794 700 569
@@ -44,7 +41,7 @@ export default function Contact() {
           </a>
           <Typography
             variant="bodyLarge"
-            className="text-center md:text-right text-neutral-700"
+            className="text-center lg:text-right text-neutral-700"
           >
             <FaEnvelope className="inline-block mr-2 text-blue text-xl" />
             tuszynska.ola3@gmail.com
@@ -53,25 +50,25 @@ export default function Contact() {
         <Image
           src={Hands}
           alt="Zdjęcie rąk"
-          className="w-1/3 h-1/3 rounded-full self-center"
+          className="h-1/2 w-1/2 rounded-full self-center"
         />
-        <div className="md:w-1/3 justify-start items-center">
+        <div className="lg:w-1/3 justify-start items-center">
           <Typography
             variant="h6"
-            className="text-center md:text-left text-neutral-700"
+            className="text-center lg:text-left text-neutral-700"
           >
             Pan Młody
           </Typography>
           <Typography
             variant="h3Label"
-            className="text-center md:text-left text-blue py-2"
+            className="text-center lg:text-left text-blue py-2"
           >
             Jędrzej
           </Typography>
           <a href="tel:+48605606194">
             <Typography
               variant="bodyLarge"
-              className="text-center md:text-left text-neutral-700"
+              className="text-center lg:text-left text-neutral-700"
             >
               <FaPhoneAlt className="inline-block mr-2 text-blue text-xl" />
               +48 605 606 194
@@ -80,7 +77,7 @@ export default function Contact() {
           <a href="mailto:jedrzej.zawojski95@gmail.com">
             <Typography
               variant="bodyLarge"
-              className="text-center md:text-left text-neutral-700"
+              className="text-center lg:text-left text-neutral-700"
             >
               <FaEnvelope className="inline-block mr-2 text-blue text-xl" />
               jedrzej.zawojski95@gmail.com

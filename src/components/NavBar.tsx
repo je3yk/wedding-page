@@ -12,13 +12,13 @@ export default function NavBar() {
   const [mobileNavBarOpen, setMobileNavBarOpen] = useState(false);
 
   return (
-    <div className="bg-white w-full">
+    <div className="bg-white w-full absolute z-10 py-1 shadow-none md:shadow-xl shadow-blue">
       <nav className="flex items-center justify-end md:justify-center px-6 md:px-12 h-16 w-full max-w-screen-2xl mx-auto">
-        <div className="hidden md:flex ml-8 lg:ml-14 gap-10">
-          <NavBarLink href="#wedding">Ślub</NavBarLink>
-          <NavBarLink href="#reception">Wesele</NavBarLink>
-          <NavBarLink href="#contact">Kontakt</NavBarLink>
-          {/* <NavBarLink href="/visitors">Dla przyjezdnych</NavBarLink> */}
+        <div className="hidden md:flex ml-8 lg:ml-14 gap-10 2xl:gap-20">
+          <NavBarLink href="/#wedding">Ślub</NavBarLink>
+          <NavBarLink href="/#reception">Wesele</NavBarLink>
+          <NavBarLink href="/#contact">Kontakt</NavBarLink>
+          <NavBarLink href="/visitors">Dla przyjezdnych</NavBarLink>
         </div>
         <div className="flex md:hidden ml-8 lg:ml-14 gap-10">
           <button
@@ -36,7 +36,7 @@ export default function NavBar() {
           leave="transition-opacity duration-300"
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
-          className="md:hidden bg-white w-full absolute z-1 top-0 right-0 shadow-2xl"
+          className="md:hidden bg-white w-full absolute z-10 top-0 right-0 shadow-2xl"
         >
           <MobileNavBar onClick={() => setMobileNavBarOpen(false)} />
         </Transition>

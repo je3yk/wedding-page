@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import "./globals.css";
 import type { Metadata } from "next";
 import {
@@ -39,6 +40,7 @@ export default function RootLayout({
       <body
         className={`${cormorant.variable} ${greatVibes.variable} ${dancing.variable}`}
       >
+        <NavBar />
         {children}
       </body>
     </html>

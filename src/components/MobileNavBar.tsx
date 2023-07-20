@@ -15,7 +15,7 @@ type MobileNavLink = {
 function MobileNavLink(props: MobileNavLink) {
   return (
     <Link href={props.href} passHref onClick={props.onClick}>
-      <Typography variant="h3Label" className="text-blue">
+      <Typography variant="h4" className="text-blue font-primary">
         {props.children}
       </Typography>
     </Link>
@@ -31,18 +31,18 @@ export default function MobileNavBar(props: MobileNavBarProps) {
         </button>
       </div>
       <div className="flex flex-col justify-center items-end gap-10 px-2">
-        <MobileNavLink href="#wedding" onClick={props.onClick}>
+        <MobileNavLink href="/#wedding" onClick={props.onClick}>
           Ślub
         </MobileNavLink>
-        <MobileNavLink href="#reception" onClick={props.onClick}>
+        <MobileNavLink href="/#reception" onClick={props.onClick}>
           Wesele
         </MobileNavLink>
-        <MobileNavLink href="#contact" onClick={props.onClick}>
+        <MobileNavLink href="/#contact" onClick={props.onClick}>
           Kontakt
         </MobileNavLink>
-        {/* <MobileNavLink href="/visitors" onClick={props.onClick}>
+        <MobileNavLink href="/visitors" onClick={props.onClick}>
           Dla przyjezdnych
-        </MobileNavLink> */}
+        </MobileNavLink>
       </div>
     </div>
   );

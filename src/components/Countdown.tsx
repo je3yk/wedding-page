@@ -33,7 +33,7 @@ export const Countdown = ({ expiryTimestamp }: { expiryTimestamp: Date }) => {
 
   return (
     <div className="flex flex-col items-center justify-center">
-      <div className="flex flex-row items-center justify-center gap-4">
+      <div className="flex flex-row items-center justify-center gap-4 2xl:gap-8">
         <div className="flex flex-col items-center justify-center">
           <Typography variant="h3Label" className=" text-natural text-center">
             {days}

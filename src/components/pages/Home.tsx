@@ -8,12 +8,8 @@ import NavBar from "../NavBar";
 
 export default function Home() {
   return (
-    <Section
-      id="home"
-      className="h-screen flex flex-col justify-between items-center"
-    >
-      <NavBar />
-      <div className="h-full md:h-1/2 xl:h-3/4 flex flex-col justify-center items-center">
+    <Section id="home" className="min-h-screen flex flex-col justify-evenly">
+      <div className="flex flex-col justify-center items-center my-auto px-5 md:px-0 md:pt-20">
         <Image
           src={Logo}
           alt="Wesele Aleksandra & Jędrzej"

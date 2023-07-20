@@ -7,12 +7,12 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export default function Wedding() {
   const messages = [
-    "Ślub zaczyna się o godzinie 14:00",
+    "Ślub zaczyna się o godzinie 14:00.",
     "Para Młoda\nze świadkami i rodzicami przyjedzie około 13:45.",
     "Niestety kościół nie ma sowjego parkingu, ale samochody można parkować przy ulicach wokół kościoła.",
     "Przykładowe ulice gdzie szukać miejsca parkingowego:\nKrucza, Gajowicka, Grochowa, Jantarowa",
     "Prosimy o nie rzucanie ryżu, konfeti, lub kwiatów przy wyjściu Pary Młodej z kościoła.",
-    "Ewentualnie można rzucić trochę grosza, tylko nie w twarz",
+    "Ewentualnie można rzucić trochę grosza, tylko nie w twarz.",
   ];
   return (
     <Section
@@ -35,13 +35,13 @@ export default function Wedding() {
         </a>
       </div>
       <div className="flex flex-col md:flex-row h-full w-full justify-center items-center pt-5">
-        <div className="md:w-[60%] xl:w-[40%] flex flex-col px-10 h-full justify-center items-center">
+        <div className="md:w-[60%] xl:w-[40%] flex flex-col px-10 h-full justify-center items-center gap-3 md:gap-5">
           {messages.map((value, id) => {
             return (
               <Typography
                 key={`wedding-${id}`}
                 variant="h6"
-                className="text-center text-neutral-700 py-4 whitespace-pre-line"
+                className="text-center text-neutral-700 whitespace-pre-line"
               >
                 {value}
               </Typography>
