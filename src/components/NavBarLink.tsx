@@ -12,7 +12,7 @@ export default function NavBarLink({
     <Link href={href}>
       <Typography
         variant={"h4"}
-        className="text-blue hover:opacity-75 font-primary"
+        className="text-blue hover:opacity-75 font-primary 2xl:text-6xl"
       >
         {children}
       </Typography>
