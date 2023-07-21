@@ -24,7 +24,7 @@ export default function Home() {
           Do ślubu zostało
         </Typography>
         <div className="flex flex-col align-center justify-center pt-auto">
-          <Countdown expiryTimestamp={new Date("2023-08-05 14:00 +0100")} />
+          <Countdown expiryTimestamp={new Date("2023-08-05 14:00 +0200")} />
         </div>
       </div>
     </Section>
