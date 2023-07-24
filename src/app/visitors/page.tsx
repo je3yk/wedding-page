@@ -4,25 +4,52 @@ import Typography from "@/components/Typography";
 
 const visitorsContent = [
   {
-    key: "atractions",
-    label: "Atrakcje",
-    children: null,
-  },
-  {
     key: "cuisine",
     label: "Kuchnia",
-    children: null,
+    values: [
+      { title: "Ragu pracownia makaronu" },
+      { title: "Woo Thai Restaurant" },
+      { title: "Dim Sum Garden" },
+      { title: "Mango Mama" },
+      { title: "Cegielnia" },
+      { title: "Młoda Polska" },
+      { title: "Woosabi" },
+      { title: "Vaffanapoli" },
+      { title: "Pasibus" },
+      { title: "U Gruzina" },
+      { title: "Tutti Santi" },
+    ],
+  },
+  {
+    key: "atractions",
+    label: "Atrakcje",
+    values: [
+      { title: "Hydropolis" },
+      { title: "Zoo" },
+      { title: "Hala Stulecia | Pergola" },
+      { title: "Ogród Japoński" },
+      { title: "Ogród Botaniczny" },
+      { title: "Rynek" },
+      { title: "Kolejkowo" },
+      { title: "Taras widokowy w Sky Tower" },
+    ],
   },
   {
     key: "walks",
     label: "Spacery",
-    children: null,
+    values: [
+      { title: "Hala Stulecia | Politechnika | Most Grunwaldzki" },
+      {
+        title: "Urząd wojewódzki | Ostrów Tumski | Rynek",
+      },
+      { title: "Prosto na Rynek" },
+    ],
   },
 ];
 
 export default function Visitors() {
   return (
-    <Section id="visitors-main" className="pt-15" displayFlowers={["lb"]}>
+    <Section id="visitors-main" className="pt-15" displayFlowers={["lb", "rb"]}>
       <div className="h-fit py-20 flex flex-col justify-around items-center gap-5 px-5">
         <Typography variant="h1" className="text-blue text-center my-5">
           Informacje dla przyjezdnych
@@ -43,8 +70,8 @@ export default function Visitors() {
         </div>
       </div>
 
-      <div className="h-screen flex flex-col justify-start items-center gap-5">
-        <VisitorsTabs labels={["Atrakcje", "Restauracje", "Spacery"]} />
+      <div className="h-screen flex flex-col justify-start items-center">
+        <VisitorsTabs categories={visitorsContent} />
       </div>
     </Section>
   );

@@ -30,6 +30,7 @@ const styleClasses = cva("", {
         "md:text-2xl",
         "2xl:text-4xl",
         "font-primary",
+        "font-bold",
       ],
       bodySmall: ["text-lg", "2xl:text-lg", "font-primary"],
       bodySmallStrong: ["text-lg", "2xl:text-2xl", "font-bold", "font-primary"],

@@ -7,9 +7,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "hands-bg": "url('/images/hands_cropped.png')",
-      },
       maxWidth: {
         "8xl": "90rem", // 1440px
         "9xl": "120rem", // 1920px

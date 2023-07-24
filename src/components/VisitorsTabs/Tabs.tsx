@@ -2,16 +2,16 @@
 
 import { Tab } from "@headlessui/react";
 import Typography from "../Typography";
-
-type CategoryItem = {};
+import { CategoryItem, ListItem } from "./ListItem";
 
 type Category = {
   label: string;
+  key: string;
   values: Array<CategoryItem>;
 };
 
 type VisitorsTabsProps = {
-  labels: Array<string>;
+  categories: Array<Category>;
 };
 
 function classNames(...classes: Array<string>) {
@@ -22,10 +22,10 @@ export function VisitorsTabs(props: VisitorsTabsProps) {
   return (
     <Tab.Group>
       <Tab.List className="grid grid-flow-col grid-cols-3 w-full md:w-[90%]">
-        {props.labels.map((label, id) => {
+        {props.categories.map(({ label }) => {
           return (
             <Tab
-              key={`${label}-${id}`}
+              key={label}
               className={({ selected }) => {
                 return classNames(
                   "flex items-center justify-center py-3 px-5 focus:outline-none",
@@ -47,6 +47,24 @@ export function VisitorsTabs(props: VisitorsTabsProps) {
           );
         })}
       </Tab.List>
+      <Tab.Panels className="w-full md:w-[90%] max-h-[70dvh] overflow-y-scroll p-5">
+        {props.categories.map(({ values, key }) => {
+          return (
+            <Tab.Panel key={key}>
+              {values.map((value) => {
+                return (
+                  <ListItem
+                    item={value}
+                    key={`${key}-${value.title
+                      .replaceAll(/ /g, "")
+                      .toLowerCase()}`}
+                  />
+                );
+              })}
+            </Tab.Panel>
+          );
+        })}
+      </Tab.Panels>
     </Tab.Group>
   );
 }
