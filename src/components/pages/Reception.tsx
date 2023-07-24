@@ -17,6 +17,8 @@ export default function Reception() {
   ];
 
   const timetable = [
+    { time: "13:45", message: "Zbiórka przed kościołem" },
+    { time: "14:00", message: "Ślub" },
     {
       time: "15:30",
       message:
