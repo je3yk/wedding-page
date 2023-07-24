@@ -21,8 +21,7 @@ export default function Reception() {
     { time: "14:00", message: "Ślub" },
     {
       time: "15:30",
-      message:
-        "Przyjazd do hotelu, toasty, życzenia\nrozlokowanie się przy stolikach",
+      message: "Przyjazd do hotelu, toasty, życzenia, znalezienie stolików",
     },
     { time: "16:15", message: "Obiad" },
     { time: "17:30", message: "Pierwszy taniec" },
