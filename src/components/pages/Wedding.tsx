@@ -9,7 +9,7 @@ export default function Wedding() {
   const messages = [
     "Ślub zaczyna się o godzinie 14:00.",
     "Para Młoda\nze świadkami i rodzicami przyjedzie około 13:45.",
-    "Niestety kościół nie ma sowjego parkingu, ale samochody można parkować przy ulicach wokół kościoła.",
+    "Niestety kościół nie ma swojego parkingu, ale samochody można parkować przy ulicach wokół kościoła.",
     "Przykładowe ulice gdzie szukać miejsca parkingowego:\nKrucza, Gajowicka, Grochowa, Jantarowa",
     "Prosimy o nie rzucanie ryżu, konfeti, lub kwiatów przy wyjściu Pary Młodej z kościoła.",
     "Ewentualnie można rzucić trochę grosza, tylko nie w twarz.",
