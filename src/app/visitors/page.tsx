@@ -1,4 +1,4 @@
-import DescriptionSwitcher from "@/components/DescriptionSwitcher";
+import { VisitorsTabs } from "@/components/VisitorsTabs";
 import Section from "@/components/Section";
 import Typography from "@/components/Typography";
 
@@ -28,15 +28,15 @@ export default function Visitors() {
           Informacje dla przyjezdnych
         </Typography>
         <div className="h-4/5 flex flex-col justify-start items-center gap-5">
-          <Typography variant="h4" className="text-center font-primary">
+          <Typography variant="bodyLarge" className="text-center font-primary">
             Chcemy, żebyście po naszej uroczystości wszyscy wrócili bezpiecznie
             do domu.
           </Typography>
-          <Typography variant="h4" className="text-center font-primary">
+          <Typography variant="bodyLarge" className="text-center font-primary">
             Dlatego w niedzielę, przed wyjazdem, zachęcamy do spokojnego
             pozwiedzania miasta, skosztowania lokalnych specjałów i odpoczynku.
           </Typography>
-          <Typography variant="h4" className="text-center font-primary">
+          <Typography variant="bodyLarge" className="text-center font-primary">
             Poniżej znajdziecie kilka propozycji na spędzenie czasu w naszym
             mieście.
           </Typography>
@@ -44,11 +44,7 @@ export default function Visitors() {
       </div>
 
       <div className="h-screen flex flex-col justify-start items-center gap-5">
-        <DescriptionSwitcher
-          contents={visitorsContent}
-          defaultLabel="atractions"
-          emptyMessage="Wkrótce więcej informacji"
-        />
+        <VisitorsTabs labels={["Atrakcje", "Restauracje", "Spacery"]} />
       </div>
     </Section>
   );
