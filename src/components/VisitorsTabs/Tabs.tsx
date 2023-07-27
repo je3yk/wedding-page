@@ -47,7 +47,7 @@ export function VisitorsTabs(props: VisitorsTabsProps) {
           );
         })}
       </Tab.List>
-      <Tab.Panels className="w-full md:w-[90%] max-h-[70dvh] overflow-y-scroll p-5">
+      <Tab.Panels className="w-full md:w-[90%] md:max-h-[70dvh] overflow-y-scroll px-5 pb-5">
         {props.categories.map(({ values, key }) => {
           return (
             <Tab.Panel key={key}>

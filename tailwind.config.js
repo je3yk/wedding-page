@@ -33,6 +33,7 @@ module.exports = {
       colors: {
         // BLUE
         blue: "#5073B8",
+        "blue-50": "#547AC4",
         // NATURAL
         "natural-90": "#000000",
         "natural-50": "#999999",
