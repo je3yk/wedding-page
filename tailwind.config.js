@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        screen: ["100vh /* fallback for Opera, IE and etc. */", "100dvh"],
+      },
       maxWidth: {
         "8xl": "90rem", // 1440px
         "9xl": "120rem", // 1920px
