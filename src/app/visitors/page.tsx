@@ -17,6 +17,28 @@ const visitorsContent = [
           "Trochę, dłuższy czas w kolejce",
           "kilka stolików na zewnątrz",
         ],
+        description: (
+          <p>
+            Nasze najbardziej ulubione miejsce z makaronami we Wroclawiu.
+            <br />
+            Początkowo RAGU miało być jedynie pracownią makaronu dostarczającą
+            makaron do innych restauracji w mieście, jednak szybko stał się
+            głównym miejscem, i dzisiaj codziennie ustawiają się kolejki do
+            lokalu, w których, jeśli mamy na to czas, to warto poczekać.
+            <br />W menu znajdziemy kilka stałych ciekawych pozycji jak:
+            <br />
+            <u className="text-blue">Ravioli z pieczonym batatem</u> (ulubione
+            danie Pary Młodej), <u className="text-blue">Gnocchi truflowe</u>,
+            czy tradycyjne{" "}
+            <u className="text-blue">Tagliatelle ragu Monte Bianco</u> (te dwa
+            ostatnie, to zaś smaki Pana Młodego).
+            <br />
+            Wchodząc do lokalu warto też zerknąć na tablicę za barem (lub zrobić
+            zdjęcie), gdyż często znajdują się tam dania sezonowe, niedostępne w
+            karcie.
+          </p>
+        ),
+
         link: "https://ragu.pl/",
         linkLabel: "Strona lokalu",
       },
@@ -24,6 +46,32 @@ const visitorsContent = [
         title: "Woo Thai Restaurant",
         locationLabel: "Grunwaldzka 67, 50-357 Wrocław",
         location: "https://goo.gl/maps/wzNLbfemT4X4MN5W8",
+        description: (
+          <p>
+            Woo Thai to nasze ulubione miejsce z kuchnią tajską.
+            <br />
+            Poza restauracją, po mieście rozrzuconych jest jeszcze kilka lokali
+            Streetfood, które są mniejsze, mają tylko kilka stolików i raczej
+            serwują jedzenie na wynos/dowóz.
+            <br />
+            Lokal ten został wyróżniony przez Departament Promocji Handlu
+            Międzynarodowego Tajlandii certyfikatem THAI SELECT Przychodząc tam
+            na lekko większym głodzie, warto zacząć od przepysznych sajgonek na
+            przystawkę.
+            <br />Z dań głównych możemy polecić:
+            <br />
+            <u className="text-blue">Maasaman curry</u>,{" "}
+            <u className="text-blue">Pad Thai</u>,{" "}
+            <u className="text-blue">Smażona wołowina w sosie pieprzowym</u>{" "}
+            (trochę bardziej ostre).
+            <br />
+            Jeśli chodzi o ostrość dań, to nie ma co się bać, gdyż poziom
+            ostrości jest dostosowany pod europejskie podniebienia. Osobom
+            wrażliwym na ostrość zalecamy wybierać dania raczej maks z 1
+            papryczką, lub też zawsze można zapytać obsługę o łagodniejsze
+            danie.
+          </p>
+        ),
         tags: [
           "Kuchnia tajska: curry, makarony, dania smażone",
           "plac Grunwaldzki",
@@ -32,20 +80,6 @@ const visitorsContent = [
         link: "https://woothai.pl/pl/woothai/",
         linkLabel: "Strona lokalu",
       },
-      {
-        title: "Dim Sum Garden",
-        locationLabel: "Podwale 83, 50-414 Wrocław",
-        location: "https://goo.gl/maps/komuo8wsj6y38cuc6",
-        tags: [
-          "Chińskie pierożki",
-          "OVO | plac dominikański",
-          "nie ma problemu ze stolikami",
-          "stoliki w patio budynku",
-        ],
-        link: "https://www.dimsumgarden.pl/",
-        linkLabel: "Strona lokalu",
-      },
-
       {
         title: "Mango Mama",
         locationLabel: "Podwale 83, 50-414 Wrocław",
@@ -56,6 +90,36 @@ const visitorsContent = [
           "nie ma problemu ze stolikami",
           "stoliki w patio budynku",
         ],
+        description: (
+          <p>
+            Myśląc o kuchni indyjskiej we Wrocławiu, nie sposób nie wspomnieć o
+            Mango Mama.
+            <br />
+            Pyszne dania serwowane serwowane przez miłą i sprawnie działającą
+            obsługę, sprawiają, że jest to nasz częsty wybór na weekendowy
+            obiad.
+            <br />
+            Wokół rynku znajdują się 2 lokale, które łączą te same menu, więc
+            nie ma znaczenia do którego ostatecznie traficie.
+            <br />
+            Na plus dla lokalu w budynku OVO przy Galeri Dominikańskiej, można
+            zaliczyć zielone patio, gdzie można złapać trochę cienia i zjeść na
+            świeżym powietrzu.
+            <br />
+            Od nas polecamy:
+            <br />
+            <u className="text-blue">Butter masala</u> (łagodniejsze),{" "}
+            <u className="text-blue">Tikka masala</u> (pikantniejsze),{" "}
+            <u className="text-blue">Monkey Nut Noodles</u>.<br />W przypadku
+            gdy wybierzecie, którąś z masal, warto zamówić sobie również chlebek
+            naan. Tylko dobra rada zamówcie 1 chlebek na 2 osoby, bo są naprawdę
+            spore.
+            <br />
+            Będąc w restauracji warto wiedzieć, że istnieje opcja, spożywania
+            piwa bezalkoholowego (i nie tylko) z mieszczącego się obok lokalu
+            browaru Pinta.
+          </p>
+        ),
         link: "http://www.mangomama.pl/",
         linkLabel: "Strona lokalu",
       },
@@ -69,19 +133,58 @@ const visitorsContent = [
           "nie ma problemu ze stolikami",
           "zewnętrzny ogródek",
         ],
+        description: (
+          <p>
+            Cegielnia to restauracja, znajdująca się w bocznej ulicy Rynku, w
+            której każdy znajdzie coś smacznego dla siebie.
+            <br />
+            W menu znajdziemy sałatki, buły, i makarony. Warto zwrócić uwagę na
+            dostępne w karcie, ravioli, które dostarczane są z wspomnianego
+            wyżej RAGU
+            <br />
+            Warto również wspomnieć, że w niedzielę, najczęściej, możemy tutaj
+            trafić na rosół jako zupę dnia.
+            <br />
+            Z menu polecamy:
+            <br />
+            <u className="text-blue">Sałatka amerykańska</u> (wybór Panny
+            Młodej), <u className="text-blue">Sałatka wykwintna</u> (wybór Pana
+            Młodego), <u className="text-blue">buła z żeberkami wieprzowymi</u>.
+          </p>
+        ),
         link: "https://www.facebook.com/CEGIELNIABISTRO/",
         linkLabel: "Facebook",
       },
       {
-        title: "Młoda Polska",
-        locationLabel: "Plac Solny 4, 50-079 Wrocław",
-        location: "https://goo.gl/maps/MAnmPXs3Db74wfs38",
+        title: "PANCZO",
+        locationLabel: "Świętego Antoniego 35/1a, 50-073 Wrocław",
+        location: "https://goo.gl/maps/mCbRoKe36GTRTiFB7",
         tags: [
-          "Kuchnia polska w nowoczesnym wydaniu",
-          "Rynek",
-          "kilka stolików na zewnątrz",
+          "Kuchnia meksykańska",
+          "2 lokale w okolicy Rynku",
+          "jedzenie do łapki",
         ],
-        link: "https://www.facebook.com/mlodapolskabistro/",
+        description: (
+          <p>
+            Klasyka Wrocławia jeśli chodzi o kuchnię meksykańska.
+            <br />
+            Oba ich lokale możemy znaleźć w okolicy Rynku, więc podczas spaceru
+            nie powinno być problemu z trafieniem do jednego z nich.
+            <br />
+            W lokalach trafimy na kolorowe wnętrza w stylu meksykańskim.
+            <br />
+            Na miejscu zjecie między innymi: burrito, quesadillę, nachosy, czy
+            tacos.
+            <br />
+            Pan młody poleca:{" "}
+            <u className="text-blue">
+              burrito/tacos/quesadilla z szarpaną świnką
+            </u>
+            {" - "}
+            pulled pork jest dobre, zawsze i wszędzie.
+          </p>
+        ),
+        link: "https://www.facebook.com/panczobus/",
         linkLabel: "Facebook",
       },
       {
@@ -89,6 +192,34 @@ const visitorsContent = [
         locationLabel: "Pawła Włodkowica 21, 50-072 Wrocław",
         location: "https://goo.gl/maps/MPEpmbBnTBXMLoVRA",
         tags: ["Kuchnia azjatycka", "okolice Rynku", "przyjemne patio"],
+        description: (
+          <p>
+            Przyjemne, zielone, miejsce z przepysznymi daniami kuchni
+            azjatyckiej.
+            <br />
+            W menu znajdziemy bowle, w różnych wydaniach, oraz bardzo sycące
+            bułeczki bao.
+            <br />
+            Decydując się na bułeczki, warto przemyśleć opcję setów, w których
+            możemy wybrać do 3 bułeczek w róznych smakach.
+            <br />
+            <br />
+            <u className="font-bold">Uwaga!</u> Niech nie zwiedzie was rozmiar
+            tych bułeczek. W połączeniu z dodatkami, wychodzi z tego bardzo
+            sycące danie.
+            <br />
+            <p className="my-5">
+              Na przystawkę można również spróbować Edamame -{" "}
+              <i>Japoński przysmak z młodej soi</i>.
+            </p>
+            Para młoda poleca:{" "}
+            <u className="text-blue">bułeczki bao wszystkich smaków</u> dla
+            każdego coś dobrego, <u className="text-blue">rice bowl</u>
+            <br />
+            Siostra Pana Młodego, od siebie poleca również deser:{" "}
+            <u className="text-blue">Woosabi deser</u>
+          </p>
+        ),
         link: "https://woosabi.pl/wroclaw/",
         linkLabel: "Strona lokalu",
       },
@@ -101,32 +232,32 @@ const visitorsContent = [
           "okolice Rynku",
           "czasem trzeba chwilkę poczekać na stolik",
         ],
+        description: (
+          <p>
+            Naszym zdaniem najlepsza włoska pizza w mieście.
+            <br />W menu znajdziemy również makarony, które są również godne
+            polecenia.
+            <br />
+            Przychodząc do tej restauracji, trzeba przygotować się na to, że
+            możemy chwilkę poczekać na wolny stolik, ale czekanie na pewno nie
+            pójdzie na marne.
+            <br />
+            Od nas z menu polecamy:
+            <br />
+            <u className="text-blue">foccacia z oliwą i rozmarynem</u> (na
+            przystawkę), <u className="text-blue">pizza parmeńska</u>,{" "}
+            <u className="text-blue">spaghetti z burratą</u>
+            <br />
+            Będąc na miejscu, warto zwrócić uwagę również na opcje serwowane na
+            menu sezonowym, zawsze znajdziemy tam kilka ciekawych opcji, które
+            mogą już nigdy nie wrócić.
+            <br />
+            Pss... jak będziecie na miejscu, to zerknijcie w menu ile kosztuje
+            sos czostnkowy 😉
+          </p>
+        ),
         link: "https://m.facebook.com/VaffaWroclaw/",
         linkLabel: "Facebook",
-      },
-      {
-        title: "Pasibus",
-        locationLabel: "Dziadzio Arkady, Powstańców Śląskich 5, 55-333 Wrocław",
-        location: "https://goo.gl/maps/mfopEZpXs5gDsHKf6",
-        tags: [
-          "Burgery",
-          "kilka lokacji wokół rynku",
-          "nie ma problemu ze stolikami",
-        ],
-        link: "https://pasibus.pl/",
-        linkLabel: "Strona Pasika",
-      },
-      {
-        title: "U Gruzina",
-        locationLabel: "Wojciecha Bogusławskiego 35 35, 50-023 Wrocław",
-        location: "https://goo.gl/maps/nDfc7WDeVWMRqcxd8",
-        tags: [
-          "Kuchnia gruzińska",
-          "kilka lokacji w centrum",
-          "nie ma problemu ze stolikami",
-        ],
-        link: "https://ugruzina.com/",
-        linkLabel: "Stona lokalu",
       },
       {
         title: "Tutti Santi",
@@ -137,6 +268,30 @@ const visitorsContent = [
           "południe miasta",
           "w godzinach obiadowych trzeba poczekać na stolik",
         ],
+        description: (
+          <p>
+            Nieco oddalona od centrum, pizzeria, do której warto się wybrać.
+            <br />
+            Niech was nie zwiedzie fakt, że dojeżdżając na miejsce, traficie na
+            parking centrum handlowego Borek. Lokal ten znajduje się w
+            niewielkim budynku tuż przy parkingu. Ciekawostka: w tym budynku
+            wcześniej znajdywała się wypożyczalnia video, z której korzystała
+            Panna Młoda w dzieciństwie.
+            <br />
+            Tutti Santi, należy do ogólnopolskiej sieci pizzerii, ale ich pizza
+            w każdym z lokali jest przygotowana na najwyższym poziomie
+            (sprawdzaliśmy w Poznaniu, a i z dobrych źródeł wiemy, że w Krakowie
+            też jest bez zastrzeżeń).
+            <br />
+            Od nas polecimy Wam:
+            <br />
+            <u className="text-blue">krem z pomidorów</u> (w sam raz na
+            przystawkę), <u className="text-blue">pizzę Carciofi e Bufala</u>,
+            oraz <u className="text-blue">pizzę San Pietro</u>.<br />
+            Dla mięsnych łasuchów możemy polecić{" "}
+            <u className="text-blue">pizzę Santa Rita</u>.
+          </p>
+        ),
         link: "https://www.tuttisanti.pl/restauracje/wroclaw",
         linkLabel: "Strona lokalu",
       },

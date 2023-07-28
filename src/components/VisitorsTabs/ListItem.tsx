@@ -71,7 +71,10 @@ export function ListItem({ item }: ItemProps) {
         >
           {item.tags?.join(" • ")}
         </Typography>
-        <Typography variant="bodySmall" className="text-neutral-700 py-2">
+        <Typography
+          variant="bodySmall"
+          className="text-neutral-700 py-5 whitespace-break-spaces md:w-[90%]"
+        >
           {item.description ?? "Opis dodam wkrótce"}
         </Typography>
       </div>
