@@ -8,7 +8,7 @@ export type CategoryItem = {
   location?: string;
   locationLabel?: string;
   tags?: Array<string>;
-  description?: string;
+  description?: () => React.ReactNode;
   link?: string;
   linkLabel?: string;
 };
@@ -46,6 +46,15 @@ export function ListItem({ item }: ItemProps) {
     );
   }, [item.linkLabel]);
 
+  function renderDescription() {
+    if (item.description) {
+      const Description = item.description;
+      return <Description />;
+    }
+
+    return <p>Opis wkrótce...</p>;
+  }
+
   return (
     <div className="w-full shadow-sm shadow-blue-50 rounded-xl p-5 md:grid md:grid-cols-5 grid-flow-col my-5">
       <div className="flex flex-col justify-start items-start col-span-4">
@@ -75,7 +84,7 @@ export function ListItem({ item }: ItemProps) {
           variant="bodySmall"
           className="text-neutral-700 py-5 whitespace-break-spaces md:w-[90%]"
         >
-          {item.description ?? "Opis dodam wkrótce"}
+          {renderDescription()}
         </Typography>
       </div>
       <div className="flex flex-col justify-center items-end gap-2 col-span-1">
