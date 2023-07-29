@@ -320,7 +320,7 @@ export function VisitorsTabs() {
           title: "Hydropolis",
           location: "https://goo.gl/maps/XVr2wyiFV58cbgr79",
           locationLabel: "Na Grobli 17, 50-421 Wrocław",
-          tags: ["Interaktywne", "Multimedialne", "Muzeum"],
+          tags: ["Interaktywne", "Multimedialne", "Muzeum wody"],
           link: "https://hydropolis.pl/",
           linkLabel: "Strona muzeum",
           description: () => (

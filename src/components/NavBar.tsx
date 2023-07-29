@@ -12,7 +12,7 @@ export default function NavBar() {
   const [mobileNavBarOpen, setMobileNavBarOpen] = useState(false);
 
   return (
-    <div className="bg-white w-full absolute z-10 py-1 shadow-none md:shadow-xl shadow-blue">
+    <div className="bg-white w-full absolute z-10 py-1 shadow-none md:shadow-md shadow-blue">
       <nav className="flex items-center justify-end md:justify-center px-6 md:px-12 h-16 w-full max-w-screen-2xl mx-auto">
         <div className="hidden md:flex ml-8 lg:ml-14 gap-10 2xl:gap-20">
           <NavBarLink href="/#wedding">Ślub</NavBarLink>
