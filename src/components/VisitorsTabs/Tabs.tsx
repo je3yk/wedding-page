@@ -40,13 +40,18 @@ export function VisitorsTabs() {
               głównym miejscem, i dzisiaj codziennie ustawiają się kolejki do
               lokalu, w których, jeśli mamy na to czas, to warto poczekać.
               <br />W menu znajdziemy kilka stałych ciekawych pozycji jak:
-              <br />
-              <u className="text-blue">Ravioli z pieczonym batatem</u> (ulubione
-              danie Pary Młodej), <u className="text-blue">Gnocchi truflowe</u>,
-              czy tradycyjne{" "}
-              <u className="text-blue">Tagliatelle ragu Monte Bianco</u> (te dwa
-              ostatnie, to zaś smaki Pana Młodego).
-              <br />
+              <span className="block my-2">
+                <u className="text-blue font-bold">
+                  Ravioli z pieczonym batatem
+                </u>{" "}
+                (ulubione danie Pary Młodej),{" "}
+                <u className="text-blue font-bold">Gnocchi truflowe</u>, czy
+                tradycyjne{" "}
+                <u className="text-blue font-bold">
+                  Tagliatelle ragu Monte Bianco
+                </u>{" "}
+                (te dwa ostatnie, to zaś smaki Pana Młodego).
+              </span>
               Wchodząc do lokalu warto też zerknąć na tablicę za barem (lub
               zrobić zdjęcie), gdyż często znajdują się tam dania sezonowe,
               niedostępne w karcie.
@@ -73,12 +78,14 @@ export function VisitorsTabs() {
               tam na lekko większym głodzie, warto zacząć od przepysznych
               sajgonek na przystawkę.
               <br />Z dań głównych możemy polecić:
-              <br />
-              <u className="text-blue">Maasaman curry</u>,{" "}
-              <u className="text-blue">Pad Thai</u>,{" "}
-              <u className="text-blue">Smażona wołowina w sosie pieprzowym</u>{" "}
-              (trochę bardziej ostre).
-              <br />
+              <span className="block my-2">
+                <u className="text-blue font-bold">Maasaman curry</u>,{" "}
+                <u className="text-blue font-bold">Pad Thai</u>,{" "}
+                <u className="text-blue font-bold">
+                  Smażona wołowina w sosie pieprzowym
+                </u>{" "}
+                (trochę bardziej ostre).
+              </span>
               Jeśli chodzi o ostrość dań, to nie ma co się bać, gdyż poziom
               ostrości jest dostosowany pod europejskie podniebienia. Osobom
               wrażliwym na ostrość zalecamy wybierać dania raczej maks z 1
@@ -121,13 +128,17 @@ export function VisitorsTabs() {
               na świeżym powietrzu.
               <br />
               Od nas polecamy:
-              <br />
-              <u className="text-blue">Butter masala</u> (łagodniejsze),{" "}
-              <u className="text-blue">Tikka masala</u> (pikantniejsze),{" "}
-              <u className="text-blue">Monkey Nut Noodles</u>.<br />W przypadku
-              gdy wybierzecie, którąś z masal, warto zamówić sobie również
-              chlebek naan. Tylko dobra rada zamówcie 1 chlebek na 2 osoby, bo
-              są naprawdę spore.
+              <span className="block my-2">
+                <u className="text-blue font-bold">Butter masala</u>{" "}
+                (łagodniejsze),{" "}
+                <u className="text-blue font-bold">Tikka masala</u>{" "}
+                (pikantniejsze),{" "}
+                <u className="text-blue font-bold">Monkey Nut Noodles</u> i{" "}
+                <u className="text-blue font-bold">Pad Thai</u>.
+              </span>
+              W przypadku gdy wybierzecie, którąś z masal, warto zamówić sobie
+              również chlebek naan. Tylko dobra rada zamówcie 1 chlebek na 2
+              osoby, bo są naprawdę spore.
               <br />
               Będąc w restauracji warto wiedzieć, że istnieje opcja, spożywania
               piwa bezalkoholowego (i nie tylko) z mieszczącego się obok lokalu
@@ -153,18 +164,24 @@ export function VisitorsTabs() {
               której każdy znajdzie coś smacznego dla siebie.
               <br />
               W menu znajdziemy sałatki, buły, i makarony. Warto zwrócić uwagę
-              na dostępne w karcie, ravioli, które dostarczane są z wspomnianego
-              wyżej RAGU
+              na dostępne w karcie, ravioli, które dostarczane są
+              <br />z wspomnianego wyżej RAGU.
               <br />
               Warto również wspomnieć, że w niedzielę, najczęściej, możemy tutaj
               trafić na rosół jako zupę dnia.
               <br />
               Z menu polecamy:
               <br />
-              <u className="text-blue">Sałatka amerykańska</u> (wybór Panny
-              Młodej), <u className="text-blue">Sałatka wykwintna</u> (wybór
-              Pana Młodego),{" "}
-              <u className="text-blue">buła z żeberkami wieprzowymi</u>.
+              <span className="block my-2">
+                <u className="text-blue font-bold">Sałatka amerykańska</u>{" "}
+                (wybór Panny Młodej),{" "}
+                <u className="text-blue font-bold">Sałatka wykwintna</u> (wybór
+                Pana Młodego),{" "}
+                <u className="text-blue font-bold">
+                  buła z żeberkami wieprzowymi
+                </u>
+                .
+              </span>
             </>
           ),
           link: "https://www.facebook.com/CEGIELNIABISTRO/",
@@ -192,11 +209,13 @@ export function VisitorsTabs() {
               tacos.
               <br />
               Pan młody poleca:{" "}
-              <u className="text-blue">
-                burrito/tacos/quesadilla z szarpaną świnką
-              </u>
-              {" - "}
-              pulled pork jest dobre, zawsze i wszędzie.
+              <span className="block my-2">
+                <u className="text-blue font-bold">
+                  Burrito/tacos/quesadilla z szarpaną świnką
+                </u>
+                {" - "}
+                pulled pork jest dobre, zawsze i wszędzie.
+              </span>
             </>
           ),
           link: "https://www.facebook.com/panczobus/",
@@ -217,22 +236,26 @@ export function VisitorsTabs() {
               <br />
               Decydując się na bułeczki, warto przemyśleć opcję setów, w których
               możemy wybrać do 3 bułeczek w róznych smakach.
-              <br />
-              <br />
-              <u className="font-bold">Uwaga!</u> Niech nie zwiedzie was rozmiar
-              tych bułeczek. W połączeniu z dodatkami, wychodzi z tego bardzo
-              sycące danie.
-              <br />
-              <span className="my-5">
+              <span className="block my-2">
+                <u className="font-bold">Uwaga!</u> Niech nie zwiedzie was
+                rozmiar tych bułeczek. W połączeniu z dodatkami, wychodzi z tego
+                bardzo sycące danie.
+              </span>
+              <span className="block my-2">
                 Na przystawkę można również spróbować Edamame -{" "}
-                <i>Japoński przysmak z młodej soi</i>.
+                <i className="text-blue">Japoński przysmak z młodej soi</i>.
               </span>
               Para młoda poleca:{" "}
-              <u className="text-blue">bułeczki bao wszystkich smaków</u> dla
-              każdego coś dobrego, <u className="text-blue">rice bowl</u>
-              <br />
+              <span className="block my-2">
+                <u className="text-blue font-bold">
+                  Bułeczki bao wszystkich smaków
+                </u>{" "}
+                dla każdego coś dobrego,{" "}
+                <u className="text-blue font-bold">rice bowl</u>
+                <br />
+              </span>
               Siostra Pana Młodego, od siebie poleca również deser:{" "}
-              <u className="text-blue">Woosabi deser</u>
+              <u className="text-blue font-bold">Woosabi deser</u>
             </>
           ),
           link: "https://woosabi.pl/wroclaw/",
@@ -258,11 +281,14 @@ export function VisitorsTabs() {
               pójdzie na marne.
               <br />
               Od nas z menu polecamy:
-              <br />
-              <u className="text-blue">foccacia z oliwą i rozmarynem</u> (na
-              przystawkę), <u className="text-blue">pizza parmeńska</u>,{" "}
-              <u className="text-blue">spaghetti z burratą</u>
-              <br />
+              <span className="block my-2">
+                <u className="text-blue font-bold">
+                  Foccacia z oliwą i rozmarynem
+                </u>{" "}
+                (na przystawkę),{" "}
+                <u className="text-blue font-bold">pizza parmeńska</u>,{" "}
+                <u className="text-blue font-bold">spaghetti z burratą</u>
+              </span>
               Będąc na miejscu, warto zwrócić uwagę również na opcje serwowane
               na menu sezonowym, zawsze znajdziemy tam kilka ciekawych opcji,
               które mogą już nigdy nie wrócić.
@@ -299,12 +325,15 @@ export function VisitorsTabs() {
               Krakowie też jest bez zastrzeżeń).
               <br />
               Od nas polecimy Wam:
-              <br />
-              <u className="text-blue">krem z pomidorów</u> (w sam raz na
-              przystawkę), <u className="text-blue">pizzę Carciofi e Bufala</u>,
-              oraz <u className="text-blue">pizzę San Pietro</u>.<br />
-              Dla mięsnych łasuchów możemy polecić{" "}
-              <u className="text-blue">pizzę Santa Rita</u>.
+              <span className="block my-2">
+                <u className="text-blue font-bold">Krem z pomidorów</u> (w sam
+                raz na przystawkę),{" "}
+                <u className="text-blue font-bold">pizzę Carciofi e Bufala</u>,
+                oraz <u className="text-blue font-bold">pizzę San Pietro</u>.
+                <br />
+                Dla mięsnych łasuchów możemy polecić{" "}
+                <u className="text-blue font-bold">pizzę Santa Rita</u>.
+              </span>
             </>
           ),
           link: "https://www.tuttisanti.pl/restauracje/wroclaw",
