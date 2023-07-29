@@ -432,6 +432,15 @@ export function VisitorsTabs() {
               <br />W środku pergoli znajduje się fontanna multimedialna, w
               pełnych godzinach trafimy na pokazy z dźwiękiem, a wieczorem także
               i ze światłami.
+              <span className="block my-5">
+                Harmonogram pokazów znajdziecie{" "}
+                <a
+                  className="text-blue underline"
+                  href="https://pik.wroclaw.pl/wroclawska-fontanna-multimedialna-pergola-pokazy-specjalne/"
+                >
+                  tutaj
+                </a>
+              </span>
               <br />
               Idąc dalej za pergolę, wejdziemy do parku szczytnickiego. Tam
               przechodząc przez mostek Pergola, możemy dojść do drewnianego pw.
