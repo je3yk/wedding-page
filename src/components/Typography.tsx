@@ -26,14 +26,21 @@ const styleClasses = cva("", {
       h6: ["text-2xl", "md:text-3xl", "2xl:text-4xl", "font-primary"],
       bodyLarge: ["text-xl", "md:text-2xl", "2xl:text-4xl", "font-primary"],
       bodyLargeStrong: [
-        "text-xl",
-        "md:text-2xl",
-        "2xl:text-4xl",
+        "text-3xl",
+        "md:text-4xl",
+        "2xl:text-5xl",
         "font-primary",
         "font-bold",
       ],
-      bodySmall: ["text-lg", "2xl:text-lg", "font-primary"],
-      bodySmallStrong: ["text-lg", "2xl:text-2xl", "font-bold", "font-primary"],
+      body: [
+        "sm:text-xl",
+        "text-xl",
+        "md:text-2xl",
+        "2xl:text-3xl",
+        "font-primary",
+      ],
+      bodySmall: ["text-xl", "font-primary"],
+      bodySmallStrong: ["text-xl", "2xl:text-2xl", "font-bold", "font-primary"],
       labelLarge: [
         "text-md",
         "md:text-lg",
@@ -80,6 +87,7 @@ export default function Typography({
     case "bodyLargeStrong":
     case "bodySmall":
     case "bodySmallStrong":
+    case "body":
       return <p className={typographyClass}>{children}</p>;
 
     case "labelLarge":

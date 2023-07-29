@@ -81,7 +81,7 @@ export function ListItem({ item }: ItemProps) {
           {item.tags?.join(" • ")}
         </Typography>
         <Typography
-          variant="bodySmall"
+          variant="body"
           className="text-neutral-700 py-5 whitespace-break-spaces md:w-[90%]"
         >
           {renderDescription()}

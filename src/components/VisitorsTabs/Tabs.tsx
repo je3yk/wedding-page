@@ -41,15 +41,15 @@ export function VisitorsTabs() {
               lokalu, w których, jeśli mamy na to czas, to warto poczekać.
               <br />W menu znajdziemy kilka stałych ciekawych pozycji jak:
               <span className="block my-2">
-                <u className="text-blue font-bold">
+                <span className="text-blue font-bold">
                   Ravioli z pieczonym batatem
-                </u>{" "}
+                </span>{" "}
                 (ulubione danie Pary Młodej),{" "}
-                <u className="text-blue font-bold">Gnocchi truflowe</u>, czy
-                tradycyjne{" "}
-                <u className="text-blue font-bold">
+                <span className="text-blue font-bold">Gnocchi truflowe</span>,
+                czy tradycyjne{" "}
+                <span className="text-blue font-bold">
                   Tagliatelle ragu Monte Bianco
-                </u>{" "}
+                </span>{" "}
                 (te dwa ostatnie, to zaś smaki Pana Młodego).
               </span>
               Wchodząc do lokalu warto też zerknąć na tablicę za barem (lub
@@ -79,11 +79,11 @@ export function VisitorsTabs() {
               sajgonek na przystawkę.
               <br />Z dań głównych możemy polecić:
               <span className="block my-2">
-                <u className="text-blue font-bold">Maasaman curry</u>,{" "}
-                <u className="text-blue font-bold">Pad Thai</u>,{" "}
-                <u className="text-blue font-bold">
+                <span className="text-blue font-bold">Maasaman curry</span>,{" "}
+                <span className="text-blue font-bold">Pad Thai</span>,{" "}
+                <span className="text-blue font-bold">
                   Smażona wołowina w sosie pieprzowym
-                </u>{" "}
+                </span>{" "}
                 (trochę bardziej ostre).
               </span>
               Jeśli chodzi o ostrość dań, to nie ma co się bać, gdyż poziom
@@ -129,12 +129,12 @@ export function VisitorsTabs() {
               <br />
               Od nas polecamy:
               <span className="block my-2">
-                <u className="text-blue font-bold">Butter masala</u>{" "}
+                <span className="text-blue font-bold">Butter masala</span>{" "}
                 (łagodniejsze),{" "}
-                <u className="text-blue font-bold">Tikka masala</u>{" "}
+                <span className="text-blue font-bold">Tikka masala</span>{" "}
                 (pikantniejsze),{" "}
-                <u className="text-blue font-bold">Monkey Nut Noodles</u> i{" "}
-                <u className="text-blue font-bold">Pad Thai</u>.
+                <span className="text-blue font-bold">Monkey Nut Noodles</span>{" "}
+                i <span className="text-blue font-bold">Pad Thai</span>.
               </span>
               W przypadku gdy wybierzecie, którąś z masal, warto zamówić sobie
               również chlebek naan. Tylko dobra rada zamówcie 1 chlebek na 2
@@ -173,13 +173,13 @@ export function VisitorsTabs() {
               Z menu polecamy:
               <br />
               <span className="block my-2">
-                <u className="text-blue font-bold">Sałatka amerykańska</u>{" "}
+                <span className="text-blue font-bold">Sałatka amerykańska</span>{" "}
                 (wybór Panny Młodej),{" "}
-                <u className="text-blue font-bold">Sałatka wykwintna</u> (wybór
-                Pana Młodego),{" "}
-                <u className="text-blue font-bold">
+                <span className="text-blue font-bold">Sałatka wykwintna</span>{" "}
+                (wybór Pana Młodego),{" "}
+                <span className="text-blue font-bold">
                   buła z żeberkami wieprzowymi
-                </u>
+                </span>
                 .
               </span>
             </>
@@ -210,9 +210,9 @@ export function VisitorsTabs() {
               <br />
               Pan młody poleca:{" "}
               <span className="block my-2">
-                <u className="text-blue font-bold">
+                <span className="text-blue font-bold">
                   Burrito/tacos/quesadilla z szarpaną świnką
-                </u>
+                </span>
                 {" - "}
                 pulled pork jest dobre, zawsze i wszędzie.
               </span>
@@ -237,7 +237,7 @@ export function VisitorsTabs() {
               Decydując się na bułeczki, warto przemyśleć opcję setów, w których
               możemy wybrać do 3 bułeczek w róznych smakach.
               <span className="block my-2">
-                <u className="font-bold">Uwaga!</u> Niech nie zwiedzie was
+                <span className="font-bold">Uwaga!</span> Niech nie zwiedzie was
                 rozmiar tych bułeczek. W połączeniu z dodatkami, wychodzi z tego
                 bardzo sycące danie.
               </span>
@@ -247,15 +247,15 @@ export function VisitorsTabs() {
               </span>
               Para młoda poleca:{" "}
               <span className="block my-2">
-                <u className="text-blue font-bold">
+                <span className="text-blue font-bold">
                   Bułeczki bao wszystkich smaków
-                </u>{" "}
+                </span>{" "}
                 dla każdego coś dobrego,{" "}
-                <u className="text-blue font-bold">rice bowl</u>
+                <span className="text-blue font-bold">rice bowl</span>
                 <br />
               </span>
               Siostra Pana Młodego, od siebie poleca również deser:{" "}
-              <u className="text-blue font-bold">Woosabi deser</u>
+              <span className="text-blue font-bold">Woosabi deser</span>
             </>
           ),
           link: "https://woosabi.pl/wroclaw/",
@@ -282,12 +282,12 @@ export function VisitorsTabs() {
               <br />
               Od nas z menu polecamy:
               <span className="block my-2">
-                <u className="text-blue font-bold">
+                <span className="text-blue font-bold">
                   Foccacia z oliwą i rozmarynem
-                </u>{" "}
+                </span>{" "}
                 (na przystawkę),{" "}
-                <u className="text-blue font-bold">pizza parmeńska</u>,{" "}
-                <u className="text-blue font-bold">spaghetti z burratą</u>
+                <span className="text-blue font-bold">pizza parmeńska</span>,{" "}
+                <span className="text-blue font-bold">spaghetti z burratą</span>
               </span>
               Będąc na miejscu, warto zwrócić uwagę również na opcje serwowane
               na menu sezonowym, zawsze znajdziemy tam kilka ciekawych opcji,
@@ -326,13 +326,16 @@ export function VisitorsTabs() {
               <br />
               Od nas polecimy Wam:
               <span className="block my-2">
-                <u className="text-blue font-bold">Krem z pomidorów</u> (w sam
-                raz na przystawkę),{" "}
-                <u className="text-blue font-bold">pizzę Carciofi e Bufala</u>,
-                oraz <u className="text-blue font-bold">pizzę San Pietro</u>.
+                <span className="text-blue font-bold">Krem z pomidorów</span> (w
+                sam raz na przystawkę),{" "}
+                <span className="text-blue font-bold">
+                  pizzę Carciofi e Bufala
+                </span>
+                , oraz{" "}
+                <span className="text-blue font-bold">pizzę San Pietro</span>.
                 <br />
                 Dla mięsnych łasuchów możemy polecić{" "}
-                <u className="text-blue font-bold">pizzę Santa Rita</u>.
+                <span className="text-blue font-bold">pizzę Santa Rita</span>.
               </span>
             </>
           ),
@@ -354,26 +357,17 @@ export function VisitorsTabs() {
           linkLabel: "Strona muzeum",
           description: () => (
             <>
-              Jedno z najnowszych muzeuów we Wrocławiu, które z pewnością
-              zainteresuje zarówno małych jak i dużych zwiedzających.
+              Niedaleko obok naszego lokalu weselnego, znajduje się jedno z
+              najnowszych muzeuów we Wrocławiu - Hydropolis
+              <br />
+              Miejsce, które z pewnością zainteresuje zarówno małych jak i
+              dużych zwiedzających.
               <br />
               Muzeum mieści się w dawnyh budynkach wodociągów, więc jak łatwo
               można się domyśleć, tematyką muzeum jest woda.
               <br />
-              Na miejscu, dowiemy się skąd w ogóle woda wzięła się na ziemi,
-              jakie stwory i zatopione okręty znajdziemy w morzach i oceanach.
-              Będziemy mogli wejść do repliki batyskafu „Trieste”, gdzie
-              poczujemy się jak członek zespołu Jacques’a Piccarda i udamy się w
-              podróż do najgłębszego miejsca na Ziemi.
-              <br />W muzeum nie pomińcie mały sal projekcyjnych, gdzie w każdej
-              z nich puszczane są filmy związane z różnymi aspektami życia w
-              wodzie i na wodzie.
-              <br />
-              Część wystawy dotyczy również wody we Wrocławiu. Dowiemy się tam
-              jak czysta woda dostarczana jest do miasta, jak w historii miasta
-              regulowano wodę. Zobaczymy również makietę Wrocławia, na której
-              różne cieki wodne, niczym żyły, obejmują miasto i jego
-              najważniejsze zabytki.
+              Na miejscu dowiem się wiele ciekawych rzeczy o wodzie, o życiu w
+              niej i dzięki niej.
               <br />
               Wybierając się do Hydropolis, warto zabrać ze sobą słuchawki do
               telefonu i skorzystać z ich aplikacji, która oferuje opcję
@@ -390,6 +384,33 @@ export function VisitorsTabs() {
           tags: ["Zwierzęta", "Trochę do chodzenia", "Wycieczka na cały dzień"],
           link: "http://www.zoo.wroclaw.pl/",
           linkLabel: "Strona Zoo Wrocław",
+          description: () => (
+            <>
+              Wrocławski Ogród Zoologiczny jest ogrodem z największą liczbą
+              zwierząt w Polsce.
+              <br />
+              Jest piątym najchętniej odwieczanym ogrodem zoologicznym w
+              Europie.
+              <br />Z hotelu Wodnik, można dojść do Zoo spacerem w około 10
+              minut do bramy japońskiej, i w około 20 minut do głównej bramy
+              (sprawdź w spacery trasę na Halę Stulecia). Najlepiej przejść
+              przez kładkę zwierzyniecką.
+              <br />
+              Brama japońska nie jest znana turystom, więc jest większa szansa
+              na to, że nie trafimy do dużej kolejki. Polecamy też wcześniej
+              kupić bilety przez internet, co również pozwoli ominąć ewentualne
+              kolejki.
+              <br />
+              Wchodząc do Zoo, zalecamy kierować się w pierwszej kolejności do
+              Afrykarium. W przypadku kolejki do wejścia, warto stanąć w niej na
+              chwilę i zobaczyć w jakim tempie się przesuwa, bo nam ostatnio
+              ostatecznie nie zajęło to nam za dużo czasu.
+              <br />
+              Oczywiście warto zobaczyć wszystkie zwierzęta, ale z racji
+              ograniczonego czasu, na pewno głównie warto zobaczyć: osadę
+              wilków, terrarium, ptaszarnię, słonie, tygrysy i pantery śnieżne.
+            </>
+          ),
         },
         {
           title: "Hala Stulecia | Pergola",
@@ -401,19 +422,69 @@ export function VisitorsTabs() {
             "Park",
             "Miejsce do zdjęć",
           ],
+          description: () => (
+            <>
+              Ikona wrocławskiej architektury, wpisana na listę światowego
+              dziedzictwa UNESCO.
+              <br />
+              Mijając iglicę, dochodzimy do Hali Stulecia, stamtąd odbijając w
+              lewo, dojdziemy do pergoli.
+              <br />W środku pergoli znajduje się fontanna multimedialna, w
+              pełnych godzinach trafimy na pokazy z dźwiękiem, a wieczorem także
+              i ze światłami.
+              <br />
+              Idąc dalej za pergolę, wejdziemy do parku szczytnickiego. Tam
+              przechodząc przez mostek Pergola, możemy dojść do drewnianego pw.
+              św. Jana Nepomucena, obecnie pełniącego rolę muzeum/galerii -{" "}
+              <i>Otwarta Przestrzeń Kultury</i>.
+              <br />
+              <span className="block my-5">
+                <span className="font-bold">Ciekawostka:</span> kościół ten,
+                został przeniesiony z Kędzierzyna-Koźla.
+              </span>
+              Odchodząc od kościoła, kierując się w stronę ulicy Mikołaja
+              Kopernika, dojdziemy do kompleksu budynków zbudowanych w ramach{" "}
+              <a
+                href="https://pl.wikipedia.org/wiki/WUWA"
+                className="text-blue underline"
+              >
+                wystawy mieszkaniowej WUWA
+              </a>
+              . Budynki te często, zostały zaadaptowane zgodnie z nowymi
+              potrzebami, jednak wciąż możemy w nich dostrzec nutę,
+              przedwojennych wizji architektonicznych.
+              <a
+                href="https://goo.gl/maps/4ta3FdamoXfKraMa7"
+                className="text-blue underline"
+              >
+                Tutaj
+              </a>{" "}
+              możecie trafić na makietę całego tego kompleksu.
+            </>
+          ),
         },
         {
           title: "Ogród Japoński",
           location: "https://goo.gl/maps/1tNWVR3HnfzAhVvT7",
           locationLabel: "Adama Mickiewicza 1, 51-618 Wrocław",
-          tags: [
-            "Ogród",
-            "Zwiedzanie",
-            "ok. godzina zwiedzania",
-            "Wejście płatne",
-          ],
+          tags: ["Ogród", "Zwiedzanie", "Wejście płatne"],
           link: "https://zzm.wroc.pl/obiektyzzmcp/ogrod-japonski-we-wroclawiu/",
           linkLabel: "Strona ogrodu",
+          description: () => (
+            <>
+              W okolicy Hali Stulecia, tuż przy fontannie multimedialnej,
+              znajduje się wrocławski Ogród Japoński.
+              <br />
+              Bilety nie są drogie, a ogród jest naprawdę piękny. W środku
+              znajdziemy, kilka ciekawych kompozycji, kwietnych zaułków, a w
+              centrum ogrodu znajduje się staw z koi. Ryby, jak i piękno ogrodu,
+              możemy podziwiać między innymi z drewnianego mostku z altanką nad
+              stawem.
+              <br />
+              Jako Para Młoda, bardzo polecamy ten ogród, jako miejsce do sesji
+              zdjęciowych - nasza sesja narzeczeńska miała tam miejsce.
+            </>
+          ),
         },
         {
           title: "Ogród Botaniczny",
@@ -422,10 +493,45 @@ export function VisitorsTabs() {
           tags: ["Rośliny", "Zwiedzanie", "Wejście płatne"],
           link: "http://www.ogrodbotaniczny.wroclaw.pl/",
           linkLabel: "Strona ogrodu",
+          description: () => (
+            <>
+              Ogród Botaniczny Uniwersytetu Wrocławskiego, to prawdziwa oaza i
+              gratka dla miłośników roślin.
+              <br />
+              Na stronie ogrodu, znajdziecie mapę, która pomoże Wam zaplanować
+              zwiedzanie. Warto zarezerwować sobie do 2 godzin na pełne
+              zwiedzenie całego ogrodu.
+              <br />
+              Ogród znajduje się w pobliżu Ostrowa Tumskiego, gdzie warto
+              przejść się uliczkami, zobaczyć piękne kamieniczki i katedrę.
+              <br />
+              Jeśli zgłodniejecie, to w okolicy polecamy restaurację RAGU
+              (sprawdźciew w zakładce &quot;Restauracje&quot;). Możecie również
+              skierować się w stronę Rynku, gdzie znajdziecie dużo innych
+              knajpek z pysznym jedzeniem.
+            </>
+          ),
         },
         {
           title: "Rynek",
           tags: ["Ratusz", "Krasnale", "Fontanna", "Kamieniczki"],
+          description: () => (
+            <>
+              Rynku Wrocławskiego, nie trzeba chyba nikomu przedstawiać. To
+              serce miasta, gdzie znajdziemy wiele pięknych budynków jak np.
+              Ratusz ze słonecznym zegarem, sukkiennice, Pręgież, czy Jasia i
+              Małgosię.
+              <br />
+              Warto też zagłębić się w boczne uliczki Rynku, gdyż w każdej z
+              nich możecie natrafić na jakąś ciekawostkę. Polecamy między innymi
+              sprawdzić uliczkę Jatki, gdzie będziecie mogli pojeździć sobie na
+              świni 😉.
+              <br />
+              Wokół Rynku na pewno znajdziecie wiele kawiarni i restuaracji -
+              kilka polecanych przez nas znajdziecie w sekcji
+              &quot;Restauracje&quot;.
+            </>
+          ),
         },
         {
           title: "Kolejkowo",
@@ -439,6 +545,26 @@ export function VisitorsTabs() {
           ],
           link: "https://kolejkowo.pl/wroclaw",
           linkLabel: "Strona Kolejkowa Wrocław",
+          description: () => (
+            <>
+              Wystawa obok, której, żaden miłośnik modelarstwa raczej nie
+              przejdzie obojętnie. Na miejscu znajdziemy makiety,
+              przedstawiające różne charakterystyczne miejsca Wrocławia.
+              Wszystkie wystawy przeplatane są liniami kolejowymi i
+              tramwajowymi, na których poruszają się modele pociągów i
+              tramwajów. Przechodząc przez wystawę, będziemy mogli zobaczyć
+              miasto za dnia jak i w nocy.
+              <br />
+              Na wejściu weźcie sobie ulotkę, gdzie znajdziecie zadanie
+              zlokalizowania wybranych figurek i modeli. Na pewno wypatrywanie
+              tych małych szczegółów sprawi dużo frajdy i będziecie jeszcze
+              bardziej skupieni w wypatrywaniu różnych detali, których nie jest
+              tam mało.
+              <br />
+              Wstęp jest płatny, a bilety najlepiej kupić online, wtedy można
+              wybrać sobie godzinę wejścia i podejrzeć jakie jest obłożenie.
+            </>
+          ),
         },
         {
           title: "Wystawa Lego",
@@ -448,6 +574,22 @@ export function VisitorsTabs() {
           tags: ["Wystawa", "Klocki LEGO"],
           link: "https://wystawaklockow.pl/wroclaw/?utm_source=wizytowka&utm_medium=organic",
           linkLabel: "Strona wystawy",
+          description: () => (
+            <>
+              Kolejna wystawa w najwyższym budynku we Wrocławiu. Tym razem jest
+              to wystawa przeróżniastych budowli z klocków LEGO.
+              <br />
+              To na pewno bardzo ciekawa atrakcja, dla wszystkich miłośników
+              kolorowych klocków prosto z Danii. Miłośnicy sagi Gwiezdnych
+              Wojen, będą mogli zobaczyć tam dość duży model Sokoła Millenium
+              (ponad 7 metrów długości). Dodatkowo zobaczymy tam kilka znanych
+              budowli z całego świata, oraz inscenizacje z różnych znanych bajek
+              i seriali.
+              <br />
+              Wstęp jest płatny, a bilety najlepiej kupić online, wtedy można
+              wybrać godzinę wejścia.
+            </>
+          ),
         },
         {
           title: "Taras widokowy w Sky Tower",
@@ -456,6 +598,20 @@ export function VisitorsTabs() {
           tags: ["Miasto z lotu ptaka", "Najwyższy budynek we Wrocławiu"],
           link: "https://galeria.skytower.pl/punkt-widokowy",
           linkLabel: "Strona galerii",
+          description: () => (
+            <>
+              <span className="block my-3">
+                <span className="font-bold">Uwaga!</span> Atrakcja dla ludzi bez
+                lęku wysokości.
+              </span>
+              Na szczycie najwyższego budynku we Wrocławiu znajduje się taras
+              widokowy, na które możemy wjechać szybką windą. Z góry zobaczymy
+              całą panoramę miasta, a nawet dalej.
+              <br />
+              Wstęp jest płatny, a bilety najlepiej kupić online, gdyż wjechać
+              można tylko w określonych godzinach.
+            </>
+          ),
         },
       ],
     },
