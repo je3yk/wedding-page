@@ -555,10 +555,10 @@ export function VisitorsTabs() {
           description: () => (
             <>
               Budynek główny Uniwersytetu Wrocławskiego, to jedna z ikon tego
-              miasta studentów, znajdująca się w centrum miasta. Wiele rzeźb i
-              zdobień, piękna Brama Wschodnia i Szermierz stojący na fontannie
-              przed budynkiem, to wszystko sprawia, że nawet dla mieszkających
-              we Wrocławiu, to miejsce jest zawsze punktem zachwytu.
+              miasta, znajdująca się w jego centrum. Wiele rzeźb i zdobień,
+              piękna Brama Wschodnia i Szermierz stojący na fontannie przed
+              budynkiem, to wszystko sprawia, że nawet dla mieszkających we
+              Wrocławiu, to miejsce jest zawsze punktem zachwytu.
               <br />
               Kupując bilet do muzeum, będziemy mieli możliwość zwiedzenia 4
               sal:
@@ -780,6 +780,38 @@ export function VisitorsTabs() {
             "centrum miasta",
             "dużo punktów na przerwy",
           ],
+          description: () => (
+            <>
+              Wychodząc z hotelu, idziemy w kierunku Urzędu Wojewódzkiego,
+              przechodząc obok Hydropolis.
+              <br />Z Urzędu Wojewódzkiego, kierujemy się w stronę Muzeum
+              Narodowego, a następnie przechodząc bokiem parku Juliusza
+              Słowackiego, i w ten sposób dochodzimy do Panoramy Racławickiej.
+              <br />
+              Idąc dalej prosto, dojdziemy do placu Nowy Targ, z którego możemy
+              zgłębić się w uliczki okalające Rynek.
+              <br />
+              Zwiedzając Rynek, kierujemy się na plac Solny, a tam przechodząc
+              przez Zaułek Solny, trafimy na ulicę Kazimierza Wielkiego.
+              Przechodząc przez przejście dla pieszych wejdziemy w Dzielnicę
+              Czterech Świątyń.
+              <br />W ostatnich latach w tym miejscu bardzo prężnie rozwija się
+              rynek gastronomiczny, więc jeśli macie ochotę na coś do jedzenia,
+              to jest to idealne miejsce, żeby znaleźć co Was na pewno
+              zainteresuje.
+              <br />
+              Poza tym zobaczycie tam kościół pw św. Antoniego z Padwy, oraz
+              Synagogę pod Białym Bocianem.
+              <br />
+              Następnie przechodząc na bulwar Tadka Jasińskiego, idąc nim obok
+              Narodowego Forum Muzyki, i kontynuując spacer Promenadą
+              Staromiejską, idąc wzdłuż Fosy Miejskiej, dojdziemy aż do Placu
+              Dominikańskiego.
+              <br />
+              Stamtąd kierując się na plac Wróblewskiego, dojdziemy do prostej
+              drogi do hotelu.
+            </>
+          ),
         },
       ],
     },
