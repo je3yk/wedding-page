@@ -632,16 +632,71 @@ export function VisitorsTabs() {
           title: "Hala Stulecia | Politechnika | Most Grunwaldzki",
           link: "https://goo.gl/maps/JhURsEjoo8SVeo4i9",
           linkLabel: "GoogleMaps",
+          tags: ["ok 1 godziny", "5 km", "zieleń", "spacer wzdłuż Odry"],
+          description: () => (
+            <>
+              Wychodząc z hotelu, kierujemy się na kładkę zwierzyniecką.
+              Następnie skręcając w lewo i idąc wałami, wzdłuż ogrodzenia Zoo,
+              dojdziemy na tereny Hali Stulecia. O atrakcjach przy Hali Stulecia
+              możecie przeczytać w zakładce &quot;Atrakcje&quot; więc nie będę
+              się już tutaj rozpisywał.
+              <br />
+              Po zwiedzeniu Hali Stulecia, kierujemy się na obecnie remontowany
+              Most Zwierzyniecki.
+              <span className="block my-3">
+                <span className="font-bold block my-2">
+                  Ciekawostka filmowa:
+                </span>
+                <span className="block pl-5">
+                  Dla entuzjastów filmów Marka Koterskiego ciekawostką może być
+                  fakt, że ten most był tłem w jednej z romantycznych scen w
+                  filmie &quot;Nic śmiesznego&quot;.
+                </span>
+              </span>
+              Po przejściu przez most, skręcamy w lewo i idziemy wzdłuż Odry
+              kierując się na Most Grunwaldzki. Po drodze miniemy główny kampus
+              Politechniki Wrocławskiej, wzdłuż drogi zobaczymy jeden z
+              najstarszych jej budynków - gmach A-1, oraz jeden z najnoszych
+              budynków C-13, potocznie nazywany &quote;Serowiec&quote;.
+              <br />
+              Na przeciwko budynków, wzdłuż rzeki rozciąga się Bulwar
+              Politechniki Wrocławskiej, gdzie idąc tuż przy rzece, natrafimy na
+              krasnali Wioślarzy.
+              <br />
+              Wychodząc z Bulwaru, możemy spróbować przejechać się Polinką
+              (kolejka gondolowa, jeśli będzie czynna - bilety można kupić w
+              automacie na miejscu). Możemy też kierować się dalej w kierunku
+              Mostu Grunwaldzkiego.
+              <br />Z mostu możemy zobaczyć panoramę miasta, a także zobaczyć
+              słynny dom na wodzie. Obok domu na wodzie, jest też kawiarnia na
+              wodzie, w której możecie usiąść i napić się kawy.
+              <br />
+              Wychodząc z kawiarni, kierujemy się już w stronę hotelu, po drodze
+              mijając budynki zakładów MPWiK Wrocław oraz muzeum Hydropolis.
+            </>
+          ),
         },
         {
           title: "Urząd wojewódzki | Ostrów Tumski | Rynek",
           link: "https://goo.gl/maps/4Ro9r4Meiguc4pUQ9",
           linkLabel: "GoogleMaps",
+          tags: [
+            "ok 1.5 godziny",
+            "6 km",
+            "najstarsze części miasta",
+            "wiele mostów po drodze",
+          ],
         },
         {
           title: "Prosto na Rynek i powrót podwalem",
           link: "https://goo.gl/maps/js2qRmVgm1sYr43s7",
           linkLabel: "GoogleMaps",
+          tags: [
+            "niecałe 2 godziny",
+            "8 km",
+            "centrum miasta",
+            "dużo punktów na przerwy",
+          ],
         },
       ],
     },
