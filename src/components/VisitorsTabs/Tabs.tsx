@@ -543,6 +543,42 @@ export function VisitorsTabs() {
           ),
         },
         {
+          title: "Muzeum Uniwersytetu Wrocławskiego",
+          tags: [
+            "Muzeum",
+            "Aula Leopoldina",
+            "Wrocławscy nobliści",
+            "Główny budynek uniwersytetu",
+          ],
+          link: "http://muzeum.uni.wroc.pl/",
+          linkLabel: "Strona muzeum",
+          description: () => (
+            <>
+              Budynek główny Uniwersytetu Wrocławskiego, to jedna z ikon tego
+              miasta studentów, znajdująca się w centrum miasta. Wiele rzeźb i
+              zdobień, piękna Brama Wschodnia i Szermierz stojący na fontannie
+              przed budynkiem, to wszystko sprawia, że nawet dla mieszkających
+              we Wrocławiu, to miejsce jest zawsze punktem zachwytu.
+              <br />
+              Kupując bilet do muzeum, będziemy mieli możliwość zwiedzenia 4
+              sal:
+              <ul className="list-disc block px-10">
+                <li>Aula Leopoldyńska,</li>
+                <li>Oratorium Marianum,</li>
+                <li>Wieża Matematyczna,</li>
+                <li>
+                  wystawy stałe i czasowe (najlepiej sprawdzić na stronie).
+                </li>
+              </ul>
+              Wieża Matematyczna to dawne Obserwatorium Astronomiczne, gdzie
+              dzisiaj, taras widokowy daje turystom możliwość podziwiania
+              panoramy miasta.
+              <br />
+              Będąc w okolicach Rynku, na pewno warto zwiedzić to miejsce.
+            </>
+          ),
+        },
+        {
           title: "Kolejkowo",
           location: "https://goo.gl/maps/iA9i34q9wQSnnnyX7",
           locationLabel: "Powstańców Śląskich 95/I piętro, 53-332 Wrocław",
@@ -677,8 +713,9 @@ export function VisitorsTabs() {
           ),
         },
         {
-          title: "Urząd wojewódzki | Ostrów Tumski | Rynek",
-          link: "https://goo.gl/maps/4Ro9r4Meiguc4pUQ9",
+          title:
+            "Urząd wojewódzki | Ostrów Tumski | Uniwersytet Wrocławski | Rynek",
+          link: "https://goo.gl/maps/BqsGUYmyDy6jyjee7",
           linkLabel: "GoogleMaps",
           tags: [
             "ok 1.5 godziny",
@@ -686,6 +723,52 @@ export function VisitorsTabs() {
             "najstarsze części miasta",
             "wiele mostów po drodze",
           ],
+          description: () => (
+            <>
+              Startując z hotelu, kierujemy się w stronę mostu Grunwaldzkiego.
+              Po drodze mijamy Hydropolis. Będąc przy moście przechodzimy przez
+              lub pod jezdnią i idziemy bulwarem wzdłuż Odry i budynku Urzędu
+              Wojewódzkiego.
+              <br />
+              Nie zwracajcie uwagi na nazwę tej części bulwaru, chyba nikt we
+              Wrocławiu do końca nie wie kto zdecydował, że ma on nazwę taką
+              jaką ma.
+              <br />
+              Dochodząc do kolejnego mostu, Mostu Pokoju, mamy dwie opcje:
+              <ul className="list-disc block px-10">
+                <li>
+                  możemy albo iść dalej wzdłuż Odry, obok Muzeum Narodowego i
+                  podziwiać z bulwaru panoramę Ostrowa Tumskiego, dochodząc
+                  ostatecznie do Hali Targowej, albo
+                </li>
+                <li>
+                  możemy przejść przez most i skierować się na Ostrów Tumski,
+                  gdzie będziemy mogli zobaczyć Katedrę i najstarszą część
+                  miasta z bliska, a następnie przechodząc przez most Tumski
+                  (most z kłódkami), kontynuować zwiedzanie od Hali Targowej.
+                </li>
+              </ul>
+              Idąc z Hali Targowej w kierunku Uniwersytetu Wrocławskiego, możemy
+              przejść uliczkami, lub też możemy przejść się wyspą słodową,
+              poczuć się na chwilę jak młody student, i podziwiać budynek UWr, z
+              daleka.
+              <br />
+              Trafiając pod główny budynek UWr, możemy spróbować wejść do
+              muzeum. Aula Leopoldina, to miejsce, które warto zobaczyć we
+              Wrocławia.
+              <br />
+              Po wyjściu z UWr, możemy przejść w kierunku Rynku, po drodze
+              łapiąc urok miasta w jego małych uliczkach i kamienicach
+              otaczających główny plac miasta. Tutaj polecamy przejść się
+              ulicami Nożownicza i potem Odrzańską, a po drodze zerknijcie
+              jeszcze na ulicę Jatki, gdzie możecie pobawić się ze zwierzątkami.
+              <br />
+              Na Rynku, możecie zobaczyć fontannę, sukkiennice połączone z
+              Ratuszem. Trafiając pod pręgież, możecie kierować się w stronę
+              placu Dominikańskiego, skąd jest już prosta droga z powrotem do
+              hotelu.
+            </>
+          ),
         },
         {
           title: "Prosto na Rynek i powrót podwalem",
