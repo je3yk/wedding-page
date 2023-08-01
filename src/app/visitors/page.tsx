@@ -42,7 +42,7 @@ export default function Visitors() {
               </Typography>
               <Typography
                 variant="body"
-                className="text-neutral-700 py-5 whitespace-break-spaces md:w-[90%] text-center"
+                className="text-neutral-700 py-5 whitespace-break-spaces md:w-[90%]"
               >
                 Gdybyście chcieli poruszać się po mieście komunikacją miejską,
                 pamiętajcie, że bilety można kupić płacąc kartą, w każdym
@@ -52,13 +52,13 @@ export default function Visitors() {
                 do Waszej karty. W przypadku ewentualnej kontroli, wystarczy
                 przyłożyć kartę do czytnika kontrolera. Ważność biletu możecie
                 zawsze sprawdzić w tych samych automatach - wystarczy wybrać
-                opcję &quote;Sprawdź ważność biletu&Quote; i przyłożyć kartę do
+                opcję &quot;Sprawdź ważność biletu&quot; i przyłożyć kartę do
                 czytnika.
                 <br />W automacie na pierwszym ekranie znajdziecie bilety
-                &quote;jednorazowe&quote; jeśli chcecie wybrać bilet czasowy,
-                trzeba wybrać opcję &quote;Pełna oferta biletów&quote;, a
-                następnie &quote;Bilety czasowe&quote;. Znajdziecie tam bilety
-                na kilka godzin, cały dzień i dłużej.
+                &quot;jednorazowe&quot; jeśli chcecie wybrać bilet czasowy,
+                trzeba wybrać opcję &quot;Pełna oferta biletów&quot;, a
+                następnie &quot;Bilety czasowe&quot;. Znajdziecie tam bilety na
+                kilka godzin, cały dzień i dłużej.
               </Typography>
             </div>
           </div>
