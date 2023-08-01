@@ -6,7 +6,7 @@ export default function Visitors() {
   return (
     <Section id="visitors-main" className="pt-15" displayFlowers={["lb", "rb"]}>
       <div className="h-fit py-20 flex flex-col justify-around items-center gap-5 px-5">
-        <div className="w-1/2 shadow-md shadow-blue-50 rounded-xl p-5 mt-10">
+        <div className="w-full md:w-1/2 shadow-md shadow-blue-50 rounded-xl p-5 mt-10">
           <div className="flex flex-col justify-center items-center">
             <Typography
               variant="bodyLargeStrong"
@@ -32,7 +32,7 @@ export default function Visitors() {
           </div>
         </div>
         <div className="h-4/5 flex flex-col justify-start items-center gap-5">
-          <div className="w-1/2 shadow-md shadow-blue-50 rounded-xl p-5 mt-10">
+          <div className="w-full md:w-1/2 shadow-md shadow-blue-50 rounded-xl p-5 mt-10">
             <div className="flex flex-col justify-center items-center">
               <Typography
                 variant="bodyLargeStrong"

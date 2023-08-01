@@ -6,37 +6,9 @@ import { FaLocationDot } from "react-icons/fa6";
 
 import HotelPhooto from "@/images/hotel.png";
 import DescriptionSwitcher from "../DescriptionSwitcher";
+import ReceptionTabs from "../ReceptionTabs";
 
 export default function Reception() {
-  const messages = [
-    "Planowany przyjazd do hotelu to 15:30.",
-    "Samochody można parkować na parkingu hotelowym,\n oraz wzdłuż jezdni na przeciwko wejścia do hotelu.\nParking wzdłuż jezdni jest darmowy przez cały weekend.",
-    "Po przyjeździe prosimy o kierowanie się do sali.\nTam wraz z dj'em czekajcie na Parę Młodą, która pojawi się chwilkę po Was\nrazem z rodzicami i świadkami.",
-    "Po złożeniu życzeń, wszyscy będą mieli chwilę na znalezienie swojego stolika.",
-    "Dalsze informacje będą Wam już przekazywane przez naszego wodzireja.",
-  ];
-
-  const timetable = [
-    { time: "13:45", message: "Zbiórka przed kościołem" },
-    { time: "14:00", message: "Ślub" },
-    {
-      time: "15:30",
-      message: "Przyjazd do hotelu, toasty, życzenia, znalezienie stolików",
-    },
-    { time: "16:15", message: "Obiad" },
-    { time: "17:30", message: "Pierwszy taniec" },
-    { time: "18:00", message: "Tort" },
-    { time: "22:00", message: "Pierwsza kolacja" },
-    { time: "22:30", message: "Iskierki" },
-    { time: "00:00", message: "Oczepiny" },
-    { time: "00:30", message: "Druga kolacja" },
-    {
-      time: "?",
-      message:
-        "Bawimy się do ostatniego tańcującego weselnika maksymalnie do 4:00",
-    },
-  ];
-
   return (
     <Section
       id="reception"
@@ -68,7 +40,10 @@ export default function Reception() {
             objectFit="cover"
           />
         </div>
-        <DescriptionSwitcher
+        <div className="h-full md:w-[50%] 2xl:w-[60%] flex flex-col pt-5 md:px-5 sm:px-10 justify-start items-center">
+          <ReceptionTabs />
+        </div>
+        {/* <DescriptionSwitcher
           className="h-full md:w-[50%] 2xl:w-[60%] flex flex-col pt-5 md:px-5 sm:px-10 justify-start items-center"
           contents={[
             {
@@ -113,7 +88,7 @@ export default function Reception() {
             },
           ]}
           defaultLabel={"timetable"}
-        />
+        /> */}
       </div>
     </Section>
   );

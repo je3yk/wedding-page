@@ -5,12 +5,6 @@ import Typography from "../Typography";
 import { CategoryItem, ListItem } from "./ListItem";
 import { useState } from "react";
 
-type Category = {
-  label: string;
-  key: string;
-  values: Array<CategoryItem>;
-};
-
 function classNames(...classes: Array<string>) {
   return classes.filter(Boolean).join(" ");
 }
