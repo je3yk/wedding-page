@@ -11,6 +11,7 @@ export default function ReceptionTimetable() {
     { time: "16:15", message: "Obiad" },
     { time: "17:30", message: "Pierwszy taniec" },
     { time: "18:00", message: "Tort" },
+    { time: "18:30", message: "Sesja zdjęciowa*" },
     { time: "22:00", message: "Pierwsza kolacja" },
     { time: "22:30", message: "Iskierki" },
     { time: "00:00", message: "Oczepiny" },
@@ -42,6 +43,10 @@ export default function ReceptionTimetable() {
           </div>
         );
       })}
+      <Typography variant="bodySmall" className="text-neutral-700">
+        * Sesja zdjęciowa może się przesunąć w czasie, w zależności od pogody. O
+        ewentualnych zmianach poinformuje Was Dj.
+      </Typography>
     </div>
   );
 }
